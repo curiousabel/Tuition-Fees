@@ -1,0 +1,3270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<canadian-undergrad-tuitions>
+  <header>
+    <description>Undergraduate tuition fees, Canadian students, by selected standard geographic areas and by field of study</description>
+    <source>https://open.canada.ca/en/open-data</source>
+    <accessed-by>thaworth@fanshawec.ca</accessed-by>
+    <accessed-date>2018-05-28</accessed-date>
+    <accessed-time>11:14:00</accessed-time>
+    <disclaimer>This data has been reformatted for INFO-3110 and does not include significant qualifying information.</disclaimer>
+    <tuition-units>Canadian Dollars</tuition-units>
+  </header>
+  <regions>
+	<!-- Listing of all fields-of-study including field-codes. -->
+    <region code="1" description="Canada" />
+    <region code="2" description="Newfoundland and Labrador" />
+    <region code="3" description="St. John's" />
+    <region code="4" description="Prince Edward Island" />
+    <region code="5" description="Charlottetown" />
+    <region code="6" description="Nova Scotia" />
+    <region code="7" description="Cape Breton" />
+    <region code="8" description="Halifax" />
+    <region code="9" description="Wolfville" />
+    <region code="10" description="Clare" />
+    <region code="11" description="Antigonish" />
+    <region code="12" description="New Brunswick" />
+    <region code="13" description="Moncton" />
+    <region code="14" description="Fredericton" />
+    <region code="15" description="Sackville" />
+    <region code="16" description="Quebec" />
+    <region code="17" description="Montreal" />
+    <region code="18" description="Sherbrooke" />
+    <region code="19" description="Saguenay" />
+    <region code="20" description="Rouyn-Noranda" />
+    <region code="21" description="Trois-Rivières" />
+    <region code="22" description="Ottawa-Gatineau, Quebec part, Ontario/Quebec" />
+    <region code="23" description="Québec" />
+    <region code="24" description="Rimouski" />
+    <region code="25" description="Ontario" />
+    <region code="26" description="St. Catharines-Niagara" />
+    <region code="27" description="Ottawa-Gatineau, Ontario part, Ontario/Quebec" />
+    <region code="28" description="Guelph" />
+    <region code="29" description="Thunder Bay" />
+    <region code="30" description="Greater Sudbury" />
+    <region code="31" description="Hamilton" />
+    <region code="32" description="North Bay" />
+    <region code="33" description="Kingston" />
+    <region code="34" description="Peterborough" />
+    <region code="35" description="Windsor" />
+    <region code="36" description="Toronto" />
+    <region code="37" description="Oshawa" />
+    <region code="38" description="Sault Ste. Marie" />
+    <region code="39" description="Kitchener-Cambridge-Waterloo" />
+    <region code="40" description="London" />
+    <region code="66" description="Barrie" />
+    <region code="41" description="Manitoba" />
+    <region code="42" description="Winnipeg" />
+    <region code="43" description="Brandon" />
+    <region code="44" description="The Pas" />
+    <region code="45" description="Saskatchewan" />
+    <region code="46" description="Regina" />
+    <region code="47" description="Saskatoon" />
+    <region code="48" description="Alberta" />
+    <region code="49" description="Edmonton" />
+    <region code="50" description="Calgary" />
+    <region code="51" description="Lethbridge" />
+    <region code="52" description="Medicine Hat" />
+    <region code="53" description="Red Deer" />
+    <region code="54" description="Athabasca" />
+    <region code="55" description="Olds" />
+    <region code="56" description="Vermillion" />
+    <region code="57" description="British Columbia" />
+    <region code="58" description="Vancouver" />
+    <region code="59" description="Victoria" />
+    <region code="60" description="Prince George" />
+    <region code="61" description="Courtenay" />
+    <region code="62" description="Cranbrook" />
+    <region code="67" description="Kamloops" />
+    <region code="63" description="Kelowna" />
+    <region code="64" description="Nanaimo" />
+    <region code="65" description="Abbotsford-Mission" />
+    <region code="68" description="Castlegar" />
+  </regions>
+  <fields>
+	<!-- Listing of all geographic regions including region-codes. -->
+    <field code="1" description="Total field of study" />
+    <field code="2" description="Education" />
+    <field code="3" description="Visual and performing arts, and communications technologies" />
+    <field code="4" description="Humanities" />
+    <field code="5" description="Social and behavioural sciences, and legal studies" />
+    <field code="6" description="Law" />
+    <field code="7" description="Business management and public administration" />
+    <field code="8" description="Physical and life sciences and technologies" />
+    <field code="9" description="Mathematics, computer and information sciences" />
+    <field code="10" description="Engineering" />
+    <field code="11" description="Architecture and related technologies" />
+    <field code="12" description="Agriculture, natural resources and conservation" />
+    <field code="13" description="Dentistry" />
+    <field code="14" description="Medicine" />
+    <field code="15" description="Nursing" />
+    <field code="16" description="Pharmacy" />
+    <field code="17" description="Veterinary medicine" />
+    <field code="18" description="Other health, parks, recreation and fitness" />
+    <field code="19" description="Personal, protective and transportation services" />
+  </fields>
+  <!-- Listing of all tuition data by region-code and by field-code (field-of-study). -->
+  <series region-code="1" field-code="1">
+    <tuition year="2016">6375</tuition>
+    <tuition year="2017">6571</tuition>
+  </series>
+  <series region-code="1" field-code="2">
+    <tuition year="2016">4571</tuition>
+    <tuition year="2017">4676</tuition>
+  </series>
+  <series region-code="1" field-code="3">
+    <tuition year="2016">5680</tuition>
+    <tuition year="2017">5842</tuition>
+  </series>
+  <series region-code="1" field-code="4">
+    <tuition year="2016">5460</tuition>
+    <tuition year="2017">5595</tuition>
+  </series>
+  <series region-code="1" field-code="5">
+    <tuition year="2016">5573</tuition>
+    <tuition year="2017">5721</tuition>
+  </series>
+  <series region-code="1" field-code="6">
+    <tuition year="2016">13115</tuition>
+    <tuition year="2017">13642</tuition>
+  </series>
+  <series region-code="1" field-code="7">
+    <tuition year="2016">6810</tuition>
+    <tuition year="2017">7068</tuition>
+  </series>
+  <series region-code="1" field-code="8">
+    <tuition year="2016">6022</tuition>
+    <tuition year="2017">6191</tuition>
+  </series>
+  <series region-code="1" field-code="9">
+    <tuition year="2016">6911</tuition>
+    <tuition year="2017">7140</tuition>
+  </series>
+  <series region-code="1" field-code="10">
+    <tuition year="2016">7827</tuition>
+    <tuition year="2017">8099</tuition>
+  </series>
+  <series region-code="1" field-code="11">
+    <tuition year="2016">6810</tuition>
+    <tuition year="2017">7081</tuition>
+  </series>
+  <series region-code="1" field-code="12">
+    <tuition year="2016">5438</tuition>
+    <tuition year="2017">5582</tuition>
+  </series>
+  <series region-code="1" field-code="13">
+    <tuition year="2016">21464</tuition>
+    <tuition year="2017">22297</tuition>
+  </series>
+  <series region-code="1" field-code="14">
+    <tuition year="2016">13911</tuition>
+    <tuition year="2017">14444</tuition>
+  </series>
+  <series region-code="1" field-code="15">
+    <tuition year="2016">5507</tuition>
+    <tuition year="2017">5634</tuition>
+  </series>
+  <series region-code="1" field-code="16">
+    <tuition year="2016">9962</tuition>
+    <tuition year="2017">10279</tuition>
+  </series>
+  <series region-code="1" field-code="17">
+    <tuition year="2016">7450</tuition>
+    <tuition year="2017">7667</tuition>
+  </series>
+  <series region-code="1" field-code="18">
+    <tuition year="2016">6085</tuition>
+    <tuition year="2017">6261</tuition>
+  </series>
+  <series region-code="1" field-code="19">
+    <tuition year="2016">5989</tuition>
+    <tuition year="2017">6157</tuition>
+  </series>
+  <series region-code="2" field-code="1">
+    <tuition year="2016">2752</tuition>
+    <tuition year="2017">2814</tuition>
+  </series>
+  <series region-code="2" field-code="2">
+    <tuition year="2016">2805</tuition>
+    <tuition year="2017">2805</tuition>
+  </series>
+  <series region-code="2" field-code="3">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="2" field-code="4">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="2" field-code="5">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="2" field-code="7">
+    <tuition year="2016">2805</tuition>
+    <tuition year="2017">2805</tuition>
+  </series>
+  <series region-code="2" field-code="8">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="2" field-code="9">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="2" field-code="10">
+    <tuition year="2016">2805</tuition>
+    <tuition year="2017">2805</tuition>
+  </series>
+  <series region-code="2" field-code="14">
+    <tuition year="2016">6250</tuition>
+    <tuition year="2017">8250</tuition>
+  </series>
+  <series region-code="2" field-code="15">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="2" field-code="16">
+    <tuition year="2016">2805</tuition>
+    <tuition year="2017">2805</tuition>
+  </series>
+  <series region-code="2" field-code="18">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="2" field-code="19">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="3" field-code="1">
+    <tuition year="2016">2752</tuition>
+    <tuition year="2017">2814</tuition>
+  </series>
+  <series region-code="3" field-code="2">
+    <tuition year="2016">2805</tuition>
+    <tuition year="2017">2805</tuition>
+  </series>
+  <series region-code="3" field-code="3">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="3" field-code="4">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="3" field-code="5">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="3" field-code="7">
+    <tuition year="2016">2805</tuition>
+    <tuition year="2017">2805</tuition>
+  </series>
+  <series region-code="3" field-code="8">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="3" field-code="9">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="3" field-code="10">
+    <tuition year="2016">2805</tuition>
+    <tuition year="2017">2805</tuition>
+  </series>
+  <series region-code="3" field-code="14">
+    <tuition year="2016">6250</tuition>
+    <tuition year="2017">8250</tuition>
+  </series>
+  <series region-code="3" field-code="15">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="3" field-code="16">
+    <tuition year="2016">2805</tuition>
+    <tuition year="2017">2805</tuition>
+  </series>
+  <series region-code="3" field-code="18">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="3" field-code="19">
+    <tuition year="2016">2550</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="4" field-code="1">
+    <tuition year="2016">6310</tuition>
+    <tuition year="2017">6498</tuition>
+  </series>
+  <series region-code="4" field-code="2">
+    <tuition year="2016">7673</tuition>
+    <tuition year="2017">8031</tuition>
+  </series>
+  <series region-code="4" field-code="3">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="4" field-code="4">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="4" field-code="5">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="4" field-code="7">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="4" field-code="8">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="4" field-code="9">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="4" field-code="10">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="4" field-code="15">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="4" field-code="17">
+    <tuition year="2016">12375</tuition>
+    <tuition year="2017">12746</tuition>
+  </series>
+  <series region-code="4" field-code="18">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="5" field-code="1">
+    <tuition year="2016">6310</tuition>
+    <tuition year="2017">6498</tuition>
+  </series>
+  <series region-code="5" field-code="2">
+    <tuition year="2016">7673</tuition>
+    <tuition year="2017">8031</tuition>
+  </series>
+  <series region-code="5" field-code="3">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="5" field-code="4">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="5" field-code="5">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="5" field-code="7">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="5" field-code="8">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="5" field-code="9">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="5" field-code="10">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="5" field-code="15">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="5" field-code="17">
+    <tuition year="2016">12375</tuition>
+    <tuition year="2017">12746</tuition>
+  </series>
+  <series region-code="5" field-code="18">
+    <tuition year="2016">5860</tuition>
+    <tuition year="2017">6030</tuition>
+  </series>
+  <series region-code="6" field-code="1">
+    <tuition year="2016">7322</tuition>
+    <tuition year="2017">7726</tuition>
+  </series>
+  <series region-code="6" field-code="2">
+    <tuition year="2016">6533</tuition>
+    <tuition year="2017">6938</tuition>
+  </series>
+  <series region-code="6" field-code="3">
+    <tuition year="2016">6639</tuition>
+    <tuition year="2017">7220</tuition>
+  </series>
+  <series region-code="6" field-code="4">
+    <tuition year="2016">6409</tuition>
+    <tuition year="2017">6742</tuition>
+  </series>
+  <series region-code="6" field-code="5">
+    <tuition year="2016">6519</tuition>
+    <tuition year="2017">6860</tuition>
+  </series>
+  <series region-code="6" field-code="6">
+    <tuition year="2016">14125</tuition>
+    <tuition year="2017">14565</tuition>
+  </series>
+  <series region-code="6" field-code="7">
+    <tuition year="2016">6823</tuition>
+    <tuition year="2017">7281</tuition>
+  </series>
+  <series region-code="6" field-code="8">
+    <tuition year="2016">7129</tuition>
+    <tuition year="2017">7449</tuition>
+  </series>
+  <series region-code="6" field-code="9">
+    <tuition year="2016">7042</tuition>
+    <tuition year="2017">7319</tuition>
+  </series>
+  <series region-code="6" field-code="10">
+    <tuition year="2016">8726</tuition>
+    <tuition year="2017">9314</tuition>
+  </series>
+  <series region-code="6" field-code="11">
+    <tuition year="2016">7041</tuition>
+    <tuition year="2017">7266</tuition>
+  </series>
+  <series region-code="6" field-code="12">
+    <tuition year="2016">6300</tuition>
+    <tuition year="2017">6830</tuition>
+  </series>
+  <series region-code="6" field-code="13">
+    <tuition year="2016">22090</tuition>
+    <tuition year="2017">24133</tuition>
+  </series>
+  <series region-code="6" field-code="14">
+    <tuition year="2016">18489</tuition>
+    <tuition year="2017">19450</tuition>
+  </series>
+  <series region-code="6" field-code="15">
+    <tuition year="2016">7035</tuition>
+    <tuition year="2017">7419</tuition>
+  </series>
+  <series region-code="6" field-code="16">
+    <tuition year="2016">9992</tuition>
+    <tuition year="2017">10716</tuition>
+  </series>
+  <series region-code="6" field-code="18">
+    <tuition year="2016">7385</tuition>
+    <tuition year="2017">7690</tuition>
+  </series>
+  <series region-code="7" field-code="1">
+    <tuition year="2016">5938</tuition>
+    <tuition year="2017">6382</tuition>
+  </series>
+  <series region-code="7" field-code="2">
+    <tuition year="2016">7053</tuition>
+    <tuition year="2017">7543</tuition>
+  </series>
+  <series region-code="7" field-code="4">
+    <tuition year="2016">5758</tuition>
+    <tuition year="2017">6168</tuition>
+  </series>
+  <series region-code="7" field-code="5">
+    <tuition year="2016">5677</tuition>
+    <tuition year="2017">6087</tuition>
+  </series>
+  <series region-code="7" field-code="7">
+    <tuition year="2016">5870</tuition>
+    <tuition year="2017">6280</tuition>
+  </series>
+  <series region-code="7" field-code="8">
+    <tuition year="2016">5729</tuition>
+    <tuition year="2017">6139</tuition>
+  </series>
+  <series region-code="7" field-code="9">
+    <tuition year="2016">5677</tuition>
+    <tuition year="2017">6087</tuition>
+  </series>
+  <series region-code="7" field-code="10">
+    <tuition year="2016">5953</tuition>
+    <tuition year="2017">6363</tuition>
+  </series>
+  <series region-code="7" field-code="12">
+    <tuition year="2016">..</tuition>
+    <tuition year="2017">6568</tuition>
+  </series>
+  <series region-code="7" field-code="15">
+    <tuition year="2016">6364</tuition>
+    <tuition year="2017">6964</tuition>
+  </series>
+  <series region-code="7" field-code="18">
+    <tuition year="2016">5964</tuition>
+    <tuition year="2017">6374</tuition>
+  </series>
+  <series region-code="8" field-code="1">
+    <tuition year="2016">7540</tuition>
+    <tuition year="2017">7959</tuition>
+  </series>
+  <series region-code="8" field-code="2">
+    <tuition year="2016">6107</tuition>
+    <tuition year="2017">6540</tuition>
+  </series>
+  <series region-code="8" field-code="3">
+    <tuition year="2016">6540</tuition>
+    <tuition year="2017">7179</tuition>
+  </series>
+  <series region-code="8" field-code="4">
+    <tuition year="2016">6254</tuition>
+    <tuition year="2017">6559</tuition>
+  </series>
+  <series region-code="8" field-code="5">
+    <tuition year="2016">6304</tuition>
+    <tuition year="2017">6653</tuition>
+  </series>
+  <series region-code="8" field-code="6">
+    <tuition year="2016">14125</tuition>
+    <tuition year="2017">14565</tuition>
+  </series>
+  <series region-code="8" field-code="7">
+    <tuition year="2016">6853</tuition>
+    <tuition year="2017">7359</tuition>
+  </series>
+  <series region-code="8" field-code="8">
+    <tuition year="2016">7244</tuition>
+    <tuition year="2017">7559</tuition>
+  </series>
+  <series region-code="8" field-code="9">
+    <tuition year="2016">7082</tuition>
+    <tuition year="2017">7363</tuition>
+  </series>
+  <series region-code="8" field-code="10">
+    <tuition year="2016">9200</tuition>
+    <tuition year="2017">9819</tuition>
+  </series>
+  <series region-code="8" field-code="11">
+    <tuition year="2016">7041</tuition>
+    <tuition year="2017">7266</tuition>
+  </series>
+  <series region-code="8" field-code="12">
+    <tuition year="2016">6087</tuition>
+    <tuition year="2017">6665</tuition>
+  </series>
+  <series region-code="8" field-code="13">
+    <tuition year="2016">22090</tuition>
+    <tuition year="2017">24133</tuition>
+  </series>
+  <series region-code="8" field-code="14">
+    <tuition year="2016">18489</tuition>
+    <tuition year="2017">19450</tuition>
+  </series>
+  <series region-code="8" field-code="15">
+    <tuition year="2016">7246</tuition>
+    <tuition year="2017">7499</tuition>
+  </series>
+  <series region-code="8" field-code="16">
+    <tuition year="2016">9992</tuition>
+    <tuition year="2017">10716</tuition>
+  </series>
+  <series region-code="8" field-code="18">
+    <tuition year="2016">7707</tuition>
+    <tuition year="2017">7959</tuition>
+  </series>
+  <series region-code="9" field-code="1">
+    <tuition year="2016">7188</tuition>
+    <tuition year="2017">7426</tuition>
+  </series>
+  <series region-code="9" field-code="2">
+    <tuition year="2016">7258</tuition>
+    <tuition year="2017">7506</tuition>
+  </series>
+  <series region-code="9" field-code="3">
+    <tuition year="2016">7181</tuition>
+    <tuition year="2017">7419</tuition>
+  </series>
+  <series region-code="9" field-code="4">
+    <tuition year="2016">7152</tuition>
+    <tuition year="2017">7390</tuition>
+  </series>
+  <series region-code="9" field-code="5">
+    <tuition year="2016">7171</tuition>
+    <tuition year="2017">7409</tuition>
+  </series>
+  <series region-code="9" field-code="7">
+    <tuition year="2016">7168</tuition>
+    <tuition year="2017">7406</tuition>
+  </series>
+  <series region-code="9" field-code="8">
+    <tuition year="2016">7185</tuition>
+    <tuition year="2017">7423</tuition>
+  </series>
+  <series region-code="9" field-code="9">
+    <tuition year="2016">6920</tuition>
+    <tuition year="2017">7158</tuition>
+  </series>
+  <series region-code="9" field-code="12">
+    <tuition year="2016">7159</tuition>
+    <tuition year="2017">7397</tuition>
+  </series>
+  <series region-code="9" field-code="18">
+    <tuition year="2016">7320</tuition>
+    <tuition year="2017">7558</tuition>
+  </series>
+  <series region-code="10" field-code="1">
+    <tuition year="2016">6237</tuition>
+    <tuition year="2017">6610</tuition>
+  </series>
+  <series region-code="10" field-code="2">
+    <tuition year="2016">6063</tuition>
+    <tuition year="2017">6452</tuition>
+  </series>
+  <series region-code="10" field-code="4">
+    <tuition year="2016">6018</tuition>
+    <tuition year="2017">6358</tuition>
+  </series>
+  <series region-code="10" field-code="7">
+    <tuition year="2016">6110</tuition>
+    <tuition year="2017">6450</tuition>
+  </series>
+  <series region-code="10" field-code="8">
+    <tuition year="2016">7532</tuition>
+    <tuition year="2017">7902</tuition>
+  </series>
+  <series region-code="11" field-code="1">
+    <tuition year="2016">7023</tuition>
+    <tuition year="2017">7483</tuition>
+  </series>
+  <series region-code="11" field-code="2">
+    <tuition year="2016">6685</tuition>
+    <tuition year="2017">7143</tuition>
+  </series>
+  <series region-code="11" field-code="3">
+    <tuition year="2016">6966</tuition>
+    <tuition year="2017">7424</tuition>
+  </series>
+  <series region-code="11" field-code="4">
+    <tuition year="2016">7074</tuition>
+    <tuition year="2017">7532</tuition>
+  </series>
+  <series region-code="11" field-code="5">
+    <tuition year="2016">7011</tuition>
+    <tuition year="2017">7469</tuition>
+  </series>
+  <series region-code="11" field-code="7">
+    <tuition year="2016">7063</tuition>
+    <tuition year="2017">7521</tuition>
+  </series>
+  <series region-code="11" field-code="8">
+    <tuition year="2016">6966</tuition>
+    <tuition year="2017">7424</tuition>
+  </series>
+  <series region-code="11" field-code="9">
+    <tuition year="2016">6985</tuition>
+    <tuition year="2017">7443</tuition>
+  </series>
+  <series region-code="11" field-code="12">
+    <tuition year="2016">7218</tuition>
+    <tuition year="2017">7676</tuition>
+  </series>
+  <series region-code="11" field-code="15">
+    <tuition year="2016">7054</tuition>
+    <tuition year="2017">7529</tuition>
+  </series>
+  <series region-code="11" field-code="18">
+    <tuition year="2016">7022</tuition>
+    <tuition year="2017">7480</tuition>
+  </series>
+  <series region-code="12" field-code="1">
+    <tuition year="2016">6714</tuition>
+    <tuition year="2017">6893</tuition>
+  </series>
+  <series region-code="12" field-code="2">
+    <tuition year="2016">6308</tuition>
+    <tuition year="2017">6458</tuition>
+  </series>
+  <series region-code="12" field-code="3">
+    <tuition year="2016">7004</tuition>
+    <tuition year="2017">7192</tuition>
+  </series>
+  <series region-code="12" field-code="4">
+    <tuition year="2016">6665</tuition>
+    <tuition year="2017">6905</tuition>
+  </series>
+  <series region-code="12" field-code="5">
+    <tuition year="2016">6580</tuition>
+    <tuition year="2017">6828</tuition>
+  </series>
+  <series region-code="12" field-code="6">
+    <tuition year="2016">8913</tuition>
+    <tuition year="2017">9119</tuition>
+  </series>
+  <series region-code="12" field-code="7">
+    <tuition year="2016">6653</tuition>
+    <tuition year="2017">6804</tuition>
+  </series>
+  <series region-code="12" field-code="8">
+    <tuition year="2016">6957</tuition>
+    <tuition year="2017">7128</tuition>
+  </series>
+  <series region-code="12" field-code="9">
+    <tuition year="2016">6550</tuition>
+    <tuition year="2017">6687</tuition>
+  </series>
+  <series region-code="12" field-code="10">
+    <tuition year="2016">7228</tuition>
+    <tuition year="2017">7356</tuition>
+  </series>
+  <series region-code="12" field-code="12">
+    <tuition year="2016">6712</tuition>
+    <tuition year="2017">6857</tuition>
+  </series>
+  <series region-code="12" field-code="15">
+    <tuition year="2016">6200</tuition>
+    <tuition year="2017">6324</tuition>
+  </series>
+  <series region-code="12" field-code="18">
+    <tuition year="2016">6123</tuition>
+    <tuition year="2017">6246</tuition>
+  </series>
+  <series region-code="13" field-code="1">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="2">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="3">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="4">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="5">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="6">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="7">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="8">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="9">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="10">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="12">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="15">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="13" field-code="18">
+    <tuition year="2016">5716</tuition>
+    <tuition year="2017">5830</tuition>
+  </series>
+  <series region-code="14" field-code="1">
+    <tuition year="2016">6798</tuition>
+    <tuition year="2017">6987</tuition>
+  </series>
+  <series region-code="14" field-code="2">
+    <tuition year="2016">7242</tuition>
+    <tuition year="2017">7448</tuition>
+  </series>
+  <series region-code="14" field-code="4">
+    <tuition year="2016">6384</tuition>
+    <tuition year="2017">6635</tuition>
+  </series>
+  <series region-code="14" field-code="5">
+    <tuition year="2016">6353</tuition>
+    <tuition year="2017">6637</tuition>
+  </series>
+  <series region-code="14" field-code="6">
+    <tuition year="2016">10329</tuition>
+    <tuition year="2017">10576</tuition>
+  </series>
+  <series region-code="14" field-code="7">
+    <tuition year="2016">6946</tuition>
+    <tuition year="2017">7101</tuition>
+  </series>
+  <series region-code="14" field-code="8">
+    <tuition year="2016">6496</tuition>
+    <tuition year="2017">6626</tuition>
+  </series>
+  <series region-code="14" field-code="9">
+    <tuition year="2016">6496</tuition>
+    <tuition year="2017">6626</tuition>
+  </series>
+  <series region-code="14" field-code="10">
+    <tuition year="2016">7509</tuition>
+    <tuition year="2017">7639</tuition>
+  </series>
+  <series region-code="14" field-code="12">
+    <tuition year="2016">6696</tuition>
+    <tuition year="2017">6826</tuition>
+  </series>
+  <series region-code="14" field-code="15">
+    <tuition year="2016">6496</tuition>
+    <tuition year="2017">6626</tuition>
+  </series>
+  <series region-code="14" field-code="18">
+    <tuition year="2016">6496</tuition>
+    <tuition year="2017">6626</tuition>
+  </series>
+  <series region-code="15" field-code="1">
+    <tuition year="2016">7765</tuition>
+    <tuition year="2017">7997</tuition>
+  </series>
+  <series region-code="15" field-code="3">
+    <tuition year="2016">7765</tuition>
+    <tuition year="2017">7997</tuition>
+  </series>
+  <series region-code="15" field-code="4">
+    <tuition year="2016">7765</tuition>
+    <tuition year="2017">7997</tuition>
+  </series>
+  <series region-code="15" field-code="5">
+    <tuition year="2016">7765</tuition>
+    <tuition year="2017">7997</tuition>
+  </series>
+  <series region-code="15" field-code="7">
+    <tuition year="2016">7765</tuition>
+    <tuition year="2017">7997</tuition>
+  </series>
+  <series region-code="15" field-code="8">
+    <tuition year="2016">7765</tuition>
+    <tuition year="2017">7997</tuition>
+  </series>
+  <series region-code="15" field-code="9">
+    <tuition year="2016">7765</tuition>
+    <tuition year="2017">7997</tuition>
+  </series>
+  <series region-code="15" field-code="12">
+    <tuition year="2016">7765</tuition>
+    <tuition year="2017">7997</tuition>
+  </series>
+  <series region-code="16" field-code="1">
+    <tuition year="2016">2817</tuition>
+    <tuition year="2017">2889</tuition>
+  </series>
+  <series region-code="16" field-code="2">
+    <tuition year="2016">2454</tuition>
+    <tuition year="2017">2518</tuition>
+  </series>
+  <series region-code="16" field-code="3">
+    <tuition year="2016">3218</tuition>
+    <tuition year="2017">3299</tuition>
+  </series>
+  <series region-code="16" field-code="4">
+    <tuition year="2016">3680</tuition>
+    <tuition year="2017">3772</tuition>
+  </series>
+  <series region-code="16" field-code="5">
+    <tuition year="2016">2895</tuition>
+    <tuition year="2017">2968</tuition>
+  </series>
+  <series region-code="16" field-code="6">
+    <tuition year="2016">2842</tuition>
+    <tuition year="2017">2917</tuition>
+  </series>
+  <series region-code="16" field-code="7">
+    <tuition year="2016">2662</tuition>
+    <tuition year="2017">2731</tuition>
+  </series>
+  <series region-code="16" field-code="8">
+    <tuition year="2016">3052</tuition>
+    <tuition year="2017">3128</tuition>
+  </series>
+  <series region-code="16" field-code="9">
+    <tuition year="2016">2866</tuition>
+    <tuition year="2017">2939</tuition>
+  </series>
+  <series region-code="16" field-code="10">
+    <tuition year="2016">2755</tuition>
+    <tuition year="2017">2825</tuition>
+  </series>
+  <series region-code="16" field-code="11">
+    <tuition year="2016">2840</tuition>
+    <tuition year="2017">2910</tuition>
+  </series>
+  <series region-code="16" field-code="12">
+    <tuition year="2016">2708</tuition>
+    <tuition year="2017">2780</tuition>
+  </series>
+  <series region-code="16" field-code="13">
+    <tuition year="2016">3596</tuition>
+    <tuition year="2017">3683</tuition>
+  </series>
+  <series region-code="16" field-code="14">
+    <tuition year="2016">2675</tuition>
+    <tuition year="2017">2742</tuition>
+  </series>
+  <series region-code="16" field-code="15">
+    <tuition year="2016">2548</tuition>
+    <tuition year="2017">2613</tuition>
+  </series>
+  <series region-code="16" field-code="16">
+    <tuition year="2016">2489</tuition>
+    <tuition year="2017">2550</tuition>
+  </series>
+  <series region-code="16" field-code="17">
+    <tuition year="2016">2481</tuition>
+    <tuition year="2017">2536</tuition>
+  </series>
+  <series region-code="16" field-code="18">
+    <tuition year="2016">2883</tuition>
+    <tuition year="2017">2956</tuition>
+  </series>
+  <series region-code="16" field-code="19">
+    <tuition year="2016">2340</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="17" field-code="1">
+    <tuition year="2016">3035</tuition>
+    <tuition year="2017">3110</tuition>
+  </series>
+  <series region-code="17" field-code="2">
+    <tuition year="2016">2540</tuition>
+    <tuition year="2017">2604</tuition>
+  </series>
+  <series region-code="17" field-code="3">
+    <tuition year="2016">3399</tuition>
+    <tuition year="2017">3484</tuition>
+  </series>
+  <series region-code="17" field-code="4">
+    <tuition year="2016">4067</tuition>
+    <tuition year="2017">4168</tuition>
+  </series>
+  <series region-code="17" field-code="5">
+    <tuition year="2016">3037</tuition>
+    <tuition year="2017">3112</tuition>
+  </series>
+  <series region-code="17" field-code="6">
+    <tuition year="2016">3636</tuition>
+    <tuition year="2017">3729</tuition>
+  </series>
+  <series region-code="17" field-code="7">
+    <tuition year="2016">2792</tuition>
+    <tuition year="2017">2863</tuition>
+  </series>
+  <series region-code="17" field-code="8">
+    <tuition year="2016">3274</tuition>
+    <tuition year="2017">3354</tuition>
+  </series>
+  <series region-code="17" field-code="9">
+    <tuition year="2016">3179</tuition>
+    <tuition year="2017">3257</tuition>
+  </series>
+  <series region-code="17" field-code="10">
+    <tuition year="2016">2906</tuition>
+    <tuition year="2017">2978</tuition>
+  </series>
+  <series region-code="17" field-code="11">
+    <tuition year="2016">3065</tuition>
+    <tuition year="2017">3138</tuition>
+  </series>
+  <series region-code="17" field-code="12">
+    <tuition year="2016">3772</tuition>
+    <tuition year="2017">3868</tuition>
+  </series>
+  <series region-code="17" field-code="13">
+    <tuition year="2016">4086</tuition>
+    <tuition year="2017">4183</tuition>
+  </series>
+  <series region-code="17" field-code="14">
+    <tuition year="2016">2571</tuition>
+    <tuition year="2017">2628</tuition>
+  </series>
+  <series region-code="17" field-code="15">
+    <tuition year="2016">2850</tuition>
+    <tuition year="2017">2916</tuition>
+  </series>
+  <series region-code="17" field-code="16">
+    <tuition year="2016">2555</tuition>
+    <tuition year="2017">2612</tuition>
+  </series>
+  <series region-code="17" field-code="17">
+    <tuition year="2016">2481</tuition>
+    <tuition year="2017">2536</tuition>
+  </series>
+  <series region-code="17" field-code="18">
+    <tuition year="2016">3138</tuition>
+    <tuition year="2017">3216</tuition>
+  </series>
+  <series region-code="17" field-code="19">
+    <tuition year="2016">2340</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="18" field-code="1">
+    <tuition year="2016">2771</tuition>
+    <tuition year="2017">2845</tuition>
+  </series>
+  <series region-code="18" field-code="2">
+    <tuition year="2016">2476</tuition>
+    <tuition year="2017">2543</tuition>
+  </series>
+  <series region-code="18" field-code="3">
+    <tuition year="2016">4087</tuition>
+    <tuition year="2017">4190</tuition>
+  </series>
+  <series region-code="18" field-code="4">
+    <tuition year="2016">3259</tuition>
+    <tuition year="2017">3343</tuition>
+  </series>
+  <series region-code="18" field-code="5">
+    <tuition year="2016">3366</tuition>
+    <tuition year="2017">3453</tuition>
+  </series>
+  <series region-code="18" field-code="6">
+    <tuition year="2016">2340</tuition>
+    <tuition year="2017">2403</tuition>
+  </series>
+  <series region-code="18" field-code="7">
+    <tuition year="2016">2899</tuition>
+    <tuition year="2017">2975</tuition>
+  </series>
+  <series region-code="18" field-code="8">
+    <tuition year="2016">3015</tuition>
+    <tuition year="2017">3094</tuition>
+  </series>
+  <series region-code="18" field-code="9">
+    <tuition year="2016">2500</tuition>
+    <tuition year="2017">2567</tuition>
+  </series>
+  <series region-code="18" field-code="10">
+    <tuition year="2016">2361</tuition>
+    <tuition year="2017">2425</tuition>
+  </series>
+  <series region-code="18" field-code="12">
+    <tuition year="2016">2362</tuition>
+    <tuition year="2017">2426</tuition>
+  </series>
+  <series region-code="18" field-code="14">
+    <tuition year="2016">3116</tuition>
+    <tuition year="2017">3197</tuition>
+  </series>
+  <series region-code="18" field-code="15">
+    <tuition year="2016">2341</tuition>
+    <tuition year="2017">2404</tuition>
+  </series>
+  <series region-code="18" field-code="16">
+    <tuition year="2016">2486</tuition>
+    <tuition year="2017">2553</tuition>
+  </series>
+  <series region-code="18" field-code="18">
+    <tuition year="2016">2344</tuition>
+    <tuition year="2017">2408</tuition>
+  </series>
+  <series region-code="19" field-code="1">
+    <tuition year="2016">2351</tuition>
+    <tuition year="2017">2415</tuition>
+  </series>
+  <series region-code="19" field-code="2">
+    <tuition year="2016">2335</tuition>
+    <tuition year="2017">2398</tuition>
+  </series>
+  <series region-code="19" field-code="3">
+    <tuition year="2016">2376</tuition>
+    <tuition year="2017">2440</tuition>
+  </series>
+  <series region-code="19" field-code="4">
+    <tuition year="2016">2435</tuition>
+    <tuition year="2017">2500</tuition>
+  </series>
+  <series region-code="19" field-code="5">
+    <tuition year="2016">2346</tuition>
+    <tuition year="2017">2410</tuition>
+  </series>
+  <series region-code="19" field-code="7">
+    <tuition year="2016">2344</tuition>
+    <tuition year="2017">2407</tuition>
+  </series>
+  <series region-code="19" field-code="8">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="19" field-code="9">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="19" field-code="10">
+    <tuition year="2016">2342</tuition>
+    <tuition year="2017">2405</tuition>
+  </series>
+  <series region-code="19" field-code="12">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="19" field-code="15">
+    <tuition year="2016">2393</tuition>
+    <tuition year="2017">2457</tuition>
+  </series>
+  <series region-code="19" field-code="18">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="20" field-code="1">
+    <tuition year="2016">2346</tuition>
+    <tuition year="2017">2406</tuition>
+  </series>
+  <series region-code="20" field-code="2">
+    <tuition year="2016">2340</tuition>
+    <tuition year="2017">2400</tuition>
+  </series>
+  <series region-code="20" field-code="3">
+    <tuition year="2016">2340</tuition>
+    <tuition year="2017">2400</tuition>
+  </series>
+  <series region-code="20" field-code="5">
+    <tuition year="2016">2340</tuition>
+    <tuition year="2017">2400</tuition>
+  </series>
+  <series region-code="20" field-code="7">
+    <tuition year="2016">2353</tuition>
+    <tuition year="2017">2414</tuition>
+  </series>
+  <series region-code="20" field-code="10">
+    <tuition year="2016">2340</tuition>
+    <tuition year="2017">2400</tuition>
+  </series>
+  <series region-code="20" field-code="15">
+    <tuition year="2016">2340</tuition>
+    <tuition year="2017">2400</tuition>
+  </series>
+  <series region-code="21" field-code="1">
+    <tuition year="2016">2357</tuition>
+    <tuition year="2017">2421</tuition>
+  </series>
+  <series region-code="21" field-code="2">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="21" field-code="3">
+    <tuition year="2016">2460</tuition>
+    <tuition year="2017">2526</tuition>
+  </series>
+  <series region-code="21" field-code="4">
+    <tuition year="2016">2442</tuition>
+    <tuition year="2017">2508</tuition>
+  </series>
+  <series region-code="21" field-code="5">
+    <tuition year="2016">2340</tuition>
+    <tuition year="2017">2403</tuition>
+  </series>
+  <series region-code="21" field-code="7">
+    <tuition year="2016">2352</tuition>
+    <tuition year="2017">2416</tuition>
+  </series>
+  <series region-code="21" field-code="8">
+    <tuition year="2016">2381</tuition>
+    <tuition year="2017">2446</tuition>
+  </series>
+  <series region-code="21" field-code="9">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="21" field-code="10">
+    <tuition year="2016">2509</tuition>
+    <tuition year="2017">2577</tuition>
+  </series>
+  <series region-code="21" field-code="15">
+    <tuition year="2016">2336</tuition>
+    <tuition year="2017">2400</tuition>
+  </series>
+  <series region-code="21" field-code="18">
+    <tuition year="2016">2371</tuition>
+    <tuition year="2017">2435</tuition>
+  </series>
+  <series region-code="21" field-code="19">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="22" field-code="1">
+    <tuition year="2016">2432</tuition>
+    <tuition year="2017">2498</tuition>
+  </series>
+  <series region-code="22" field-code="2">
+    <tuition year="2016">2368</tuition>
+    <tuition year="2017">2432</tuition>
+  </series>
+  <series region-code="22" field-code="3">
+    <tuition year="2016">2393</tuition>
+    <tuition year="2017">2458</tuition>
+  </series>
+  <series region-code="22" field-code="4">
+    <tuition year="2016">2470</tuition>
+    <tuition year="2017">2536</tuition>
+  </series>
+  <series region-code="22" field-code="5">
+    <tuition year="2016">2408</tuition>
+    <tuition year="2017">2473</tuition>
+  </series>
+  <series region-code="22" field-code="7">
+    <tuition year="2016">2491</tuition>
+    <tuition year="2017">2558</tuition>
+  </series>
+  <series region-code="22" field-code="9">
+    <tuition year="2016">2419</tuition>
+    <tuition year="2017">2484</tuition>
+  </series>
+  <series region-code="22" field-code="10">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="22" field-code="15">
+    <tuition year="2016">2386</tuition>
+    <tuition year="2017">2450</tuition>
+  </series>
+  <series region-code="23" field-code="1">
+    <tuition year="2016">2376</tuition>
+    <tuition year="2017">2440</tuition>
+  </series>
+  <series region-code="23" field-code="2">
+    <tuition year="2016">2350</tuition>
+    <tuition year="2017">2414</tuition>
+  </series>
+  <series region-code="23" field-code="3">
+    <tuition year="2016">2394</tuition>
+    <tuition year="2017">2459</tuition>
+  </series>
+  <series region-code="23" field-code="4">
+    <tuition year="2016">2367</tuition>
+    <tuition year="2017">2430</tuition>
+  </series>
+  <series region-code="23" field-code="5">
+    <tuition year="2016">2358</tuition>
+    <tuition year="2017">2421</tuition>
+  </series>
+  <series region-code="23" field-code="6">
+    <tuition year="2016">2386</tuition>
+    <tuition year="2017">2450</tuition>
+  </series>
+  <series region-code="23" field-code="7">
+    <tuition year="2016">2367</tuition>
+    <tuition year="2017">2429</tuition>
+  </series>
+  <series region-code="23" field-code="8">
+    <tuition year="2016">2412</tuition>
+    <tuition year="2017">2476</tuition>
+  </series>
+  <series region-code="23" field-code="9">
+    <tuition year="2016">2371</tuition>
+    <tuition year="2017">2435</tuition>
+  </series>
+  <series region-code="23" field-code="10">
+    <tuition year="2016">2393</tuition>
+    <tuition year="2017">2458</tuition>
+  </series>
+  <series region-code="23" field-code="11">
+    <tuition year="2016">2382</tuition>
+    <tuition year="2017">2446</tuition>
+  </series>
+  <series region-code="23" field-code="12">
+    <tuition year="2016">2358</tuition>
+    <tuition year="2017">2421</tuition>
+  </series>
+  <series region-code="23" field-code="13">
+    <tuition year="2016">2403</tuition>
+    <tuition year="2017">2468</tuition>
+  </series>
+  <series region-code="23" field-code="14">
+    <tuition year="2016">2441</tuition>
+    <tuition year="2017">2506</tuition>
+  </series>
+  <series region-code="23" field-code="15">
+    <tuition year="2016">2346</tuition>
+    <tuition year="2017">2409</tuition>
+  </series>
+  <series region-code="23" field-code="16">
+    <tuition year="2016">2424</tuition>
+    <tuition year="2017">2489</tuition>
+  </series>
+  <series region-code="23" field-code="18">
+    <tuition year="2016">2379</tuition>
+    <tuition year="2017">2443</tuition>
+  </series>
+  <series region-code="24" field-code="1">
+    <tuition year="2016">2339</tuition>
+    <tuition year="2017">2402</tuition>
+  </series>
+  <series region-code="24" field-code="2">
+    <tuition year="2016">2333</tuition>
+    <tuition year="2017">2397</tuition>
+  </series>
+  <series region-code="24" field-code="4">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="24" field-code="5">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="24" field-code="7">
+    <tuition year="2016">2337</tuition>
+    <tuition year="2017">2400</tuition>
+  </series>
+  <series region-code="24" field-code="8">
+    <tuition year="2016">2438</tuition>
+    <tuition year="2017">2503</tuition>
+  </series>
+  <series region-code="24" field-code="9">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="24" field-code="10">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="24" field-code="15">
+    <tuition year="2016">2328</tuition>
+    <tuition year="2017">2391</tuition>
+  </series>
+  <series region-code="25" field-code="1">
+    <tuition year="2016">8154</tuition>
+    <tuition year="2017">8454</tuition>
+  </series>
+  <series region-code="25" field-code="2">
+    <tuition year="2016">6695</tuition>
+    <tuition year="2017">6874</tuition>
+  </series>
+  <series region-code="25" field-code="3">
+    <tuition year="2016">6771</tuition>
+    <tuition year="2017">6990</tuition>
+  </series>
+  <series region-code="25" field-code="4">
+    <tuition year="2016">6422</tuition>
+    <tuition year="2017">6606</tuition>
+  </series>
+  <series region-code="25" field-code="5">
+    <tuition year="2016">6463</tuition>
+    <tuition year="2017">6645</tuition>
+  </series>
+  <series region-code="25" field-code="6">
+    <tuition year="2016">19663</tuition>
+    <tuition year="2017">20630</tuition>
+  </series>
+  <series region-code="25" field-code="7">
+    <tuition year="2016">9577</tuition>
+    <tuition year="2017">10024</tuition>
+  </series>
+  <series region-code="25" field-code="8">
+    <tuition year="2016">7094</tuition>
+    <tuition year="2017">7331</tuition>
+  </series>
+  <series region-code="25" field-code="9">
+    <tuition year="2016">8512</tuition>
+    <tuition year="2017">8850</tuition>
+  </series>
+  <series region-code="25" field-code="10">
+    <tuition year="2016">11583</tuition>
+    <tuition year="2017">12083</tuition>
+  </series>
+  <series region-code="25" field-code="11">
+    <tuition year="2016">8322</tuition>
+    <tuition year="2017">8684</tuition>
+  </series>
+  <series region-code="25" field-code="12">
+    <tuition year="2016">6438</tuition>
+    <tuition year="2017">6609</tuition>
+  </series>
+  <series region-code="25" field-code="13">
+    <tuition year="2016">36687</tuition>
+    <tuition year="2017">38516</tuition>
+  </series>
+  <series region-code="25" field-code="14">
+    <tuition year="2016">24410</tuition>
+    <tuition year="2017">25541</tuition>
+  </series>
+  <series region-code="25" field-code="15">
+    <tuition year="2016">6573</tuition>
+    <tuition year="2017">6760</tuition>
+  </series>
+  <series region-code="25" field-code="16">
+    <tuition year="2016">18452</tuition>
+    <tuition year="2017">19207</tuition>
+  </series>
+  <series region-code="25" field-code="17">
+    <tuition year="2016">8133</tuition>
+    <tuition year="2017">8540</tuition>
+  </series>
+  <series region-code="25" field-code="18">
+    <tuition year="2016">7320</tuition>
+    <tuition year="2017">7560</tuition>
+  </series>
+  <series region-code="25" field-code="19">
+    <tuition year="2016">6747</tuition>
+    <tuition year="2017">6954</tuition>
+  </series>
+  <series region-code="26" field-code="1">
+    <tuition year="2016">6528</tuition>
+    <tuition year="2017">6748</tuition>
+  </series>
+  <series region-code="26" field-code="2">
+    <tuition year="2016">6378</tuition>
+    <tuition year="2017">6569</tuition>
+  </series>
+  <series region-code="26" field-code="3">
+    <tuition year="2016">6288</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="26" field-code="4">
+    <tuition year="2016">6288</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="26" field-code="5">
+    <tuition year="2016">6288</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="26" field-code="7">
+    <tuition year="2016">7349</tuition>
+    <tuition year="2017">7680</tuition>
+  </series>
+  <series region-code="26" field-code="8">
+    <tuition year="2016">6288</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="26" field-code="9">
+    <tuition year="2016">7295</tuition>
+    <tuition year="2017">7598</tuition>
+  </series>
+  <series region-code="26" field-code="12">
+    <tuition year="2016">6288</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="26" field-code="15">
+    <tuition year="2016">6288</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="26" field-code="18">
+    <tuition year="2016">6288</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="27" field-code="1">
+    <tuition year="2016">7745</tuition>
+    <tuition year="2017">8040</tuition>
+  </series>
+  <series region-code="27" field-code="2">
+    <tuition year="2016">6390</tuition>
+    <tuition year="2017">6582</tuition>
+  </series>
+  <series region-code="27" field-code="3">
+    <tuition year="2016">7381</tuition>
+    <tuition year="2017">7653</tuition>
+  </series>
+  <series region-code="27" field-code="4">
+    <tuition year="2016">6408</tuition>
+    <tuition year="2017">6600</tuition>
+  </series>
+  <series region-code="27" field-code="5">
+    <tuition year="2016">6734</tuition>
+    <tuition year="2017">6936</tuition>
+  </series>
+  <series region-code="27" field-code="6">
+    <tuition year="2016">13816</tuition>
+    <tuition year="2017">14506</tuition>
+  </series>
+  <series region-code="27" field-code="7">
+    <tuition year="2016">7526</tuition>
+    <tuition year="2017">7872</tuition>
+  </series>
+  <series region-code="27" field-code="8">
+    <tuition year="2016">6375</tuition>
+    <tuition year="2017">6567</tuition>
+  </series>
+  <series region-code="27" field-code="9">
+    <tuition year="2016">7647</tuition>
+    <tuition year="2017">7965</tuition>
+  </series>
+  <series region-code="27" field-code="10">
+    <tuition year="2016">10147</tuition>
+    <tuition year="2017">10655</tuition>
+  </series>
+  <series region-code="27" field-code="11">
+    <tuition year="2016">9672</tuition>
+    <tuition year="2017">10154</tuition>
+  </series>
+  <series region-code="27" field-code="12">
+    <tuition year="2016">6363</tuition>
+    <tuition year="2017">6553</tuition>
+  </series>
+  <series region-code="27" field-code="14">
+    <tuition year="2016">25686</tuition>
+    <tuition year="2017">26970</tuition>
+  </series>
+  <series region-code="27" field-code="15">
+    <tuition year="2016">6376</tuition>
+    <tuition year="2017">6568</tuition>
+  </series>
+  <series region-code="27" field-code="18">
+    <tuition year="2016">6376</tuition>
+    <tuition year="2017">6568</tuition>
+  </series>
+  <series region-code="28" field-code="1">
+    <tuition year="2016">6828</tuition>
+    <tuition year="2017">7074</tuition>
+  </series>
+  <series region-code="28" field-code="3">
+    <tuition year="2016">6276</tuition>
+    <tuition year="2017">6464</tuition>
+  </series>
+  <series region-code="28" field-code="4">
+    <tuition year="2016">6276</tuition>
+    <tuition year="2017">6464</tuition>
+  </series>
+  <series region-code="28" field-code="5">
+    <tuition year="2016">6276</tuition>
+    <tuition year="2017">6464</tuition>
+  </series>
+  <series region-code="28" field-code="7">
+    <tuition year="2016">7489</tuition>
+    <tuition year="2017">7864</tuition>
+  </series>
+  <series region-code="28" field-code="8">
+    <tuition year="2016">6276</tuition>
+    <tuition year="2017">6464</tuition>
+  </series>
+  <series region-code="28" field-code="9">
+    <tuition year="2016">7489</tuition>
+    <tuition year="2017">7864</tuition>
+  </series>
+  <series region-code="28" field-code="10">
+    <tuition year="2016">9385</tuition>
+    <tuition year="2017">9736</tuition>
+  </series>
+  <series region-code="28" field-code="11">
+    <tuition year="2016">8133</tuition>
+    <tuition year="2017">8540</tuition>
+  </series>
+  <series region-code="28" field-code="12">
+    <tuition year="2016">6276</tuition>
+    <tuition year="2017">6464</tuition>
+  </series>
+  <series region-code="28" field-code="17">
+    <tuition year="2016">8133</tuition>
+    <tuition year="2017">8540</tuition>
+  </series>
+  <series region-code="28" field-code="19">
+    <tuition year="2016">6276</tuition>
+    <tuition year="2017">6464</tuition>
+  </series>
+  <series region-code="29" field-code="1">
+    <tuition year="2016">6657</tuition>
+    <tuition year="2017">6814</tuition>
+  </series>
+  <series region-code="29" field-code="2">
+    <tuition year="2016">6384</tuition>
+    <tuition year="2017">6482</tuition>
+  </series>
+  <series region-code="29" field-code="3">
+    <tuition year="2016">6133</tuition>
+    <tuition year="2017">6227</tuition>
+  </series>
+  <series region-code="29" field-code="4">
+    <tuition year="2016">6133</tuition>
+    <tuition year="2017">6227</tuition>
+  </series>
+  <series region-code="29" field-code="5">
+    <tuition year="2016">6133</tuition>
+    <tuition year="2017">6227</tuition>
+  </series>
+  <series region-code="29" field-code="6">
+    <tuition year="2016">16704</tuition>
+    <tuition year="2017">17374</tuition>
+  </series>
+  <series region-code="29" field-code="7">
+    <tuition year="2016">6612</tuition>
+    <tuition year="2017">6793</tuition>
+  </series>
+  <series region-code="29" field-code="8">
+    <tuition year="2016">6133</tuition>
+    <tuition year="2017">6227</tuition>
+  </series>
+  <series region-code="29" field-code="9">
+    <tuition year="2016">6133</tuition>
+    <tuition year="2017">6227</tuition>
+  </series>
+  <series region-code="29" field-code="10">
+    <tuition year="2016">7355</tuition>
+    <tuition year="2017">7723</tuition>
+  </series>
+  <series region-code="29" field-code="12">
+    <tuition year="2016">6133</tuition>
+    <tuition year="2017">6227</tuition>
+  </series>
+  <series region-code="29" field-code="15">
+    <tuition year="2016">6133</tuition>
+    <tuition year="2017">6227</tuition>
+  </series>
+  <series region-code="29" field-code="18">
+    <tuition year="2016">6133</tuition>
+    <tuition year="2017">6227</tuition>
+  </series>
+  <series region-code="30" field-code="1">
+    <tuition year="2016">6615</tuition>
+    <tuition year="2017">6873</tuition>
+  </series>
+  <series region-code="30" field-code="2">
+    <tuition year="2016">6163</tuition>
+    <tuition year="2017">6333</tuition>
+  </series>
+  <series region-code="30" field-code="3">
+    <tuition year="2016">6163</tuition>
+    <tuition year="2017">6333</tuition>
+  </series>
+  <series region-code="30" field-code="4">
+    <tuition year="2016">6163</tuition>
+    <tuition year="2017">6333</tuition>
+  </series>
+  <series region-code="30" field-code="5">
+    <tuition year="2016">6163</tuition>
+    <tuition year="2017">6333</tuition>
+  </series>
+  <series region-code="30" field-code="6">
+    <tuition year="2016">..</tuition>
+    <tuition year="2017">..</tuition>
+  </series>
+  <series region-code="30" field-code="7">
+    <tuition year="2016">7493</tuition>
+    <tuition year="2017">7867</tuition>
+  </series>
+  <series region-code="30" field-code="8">
+    <tuition year="2016">6163</tuition>
+    <tuition year="2017">6333</tuition>
+  </series>
+  <series region-code="30" field-code="9">
+    <tuition year="2016">7493</tuition>
+    <tuition year="2017">7867</tuition>
+  </series>
+  <series region-code="30" field-code="10">
+    <tuition year="2016">8132</tuition>
+    <tuition year="2017">8538</tuition>
+  </series>
+  <series region-code="30" field-code="11">
+    <tuition year="2016">9785</tuition>
+    <tuition year="2017">10274</tuition>
+  </series>
+  <series region-code="30" field-code="15">
+    <tuition year="2016">6042</tuition>
+    <tuition year="2017">6333</tuition>
+  </series>
+  <series region-code="30" field-code="18">
+    <tuition year="2016">6042</tuition>
+    <tuition year="2017">6333</tuition>
+  </series>
+  <series region-code="30" field-code="19">
+    <tuition year="2016">6163</tuition>
+    <tuition year="2017">6333</tuition>
+  </series>
+  <series region-code="31" field-code="1">
+    <tuition year="2016">7839</tuition>
+    <tuition year="2017">8193</tuition>
+  </series>
+  <series region-code="31" field-code="4">
+    <tuition year="2016">6329</tuition>
+    <tuition year="2017">6496</tuition>
+  </series>
+  <series region-code="31" field-code="5">
+    <tuition year="2016">6329</tuition>
+    <tuition year="2017">6496</tuition>
+  </series>
+  <series region-code="31" field-code="7">
+    <tuition year="2016">9234</tuition>
+    <tuition year="2017">10154</tuition>
+  </series>
+  <series region-code="31" field-code="8">
+    <tuition year="2016">6329</tuition>
+    <tuition year="2017">6496</tuition>
+  </series>
+  <series region-code="31" field-code="9">
+    <tuition year="2016">6329</tuition>
+    <tuition year="2017">6496</tuition>
+  </series>
+  <series region-code="31" field-code="10">
+    <tuition year="2016">10136</tuition>
+    <tuition year="2017">10701</tuition>
+  </series>
+  <series region-code="31" field-code="14">
+    <tuition year="2016">..</tuition>
+    <tuition year="2017">..</tuition>
+  </series>
+  <series region-code="31" field-code="15">
+    <tuition year="2016">7491</tuition>
+    <tuition year="2017">7692</tuition>
+  </series>
+  <series region-code="31" field-code="18">
+    <tuition year="2016">9205</tuition>
+    <tuition year="2017">9578</tuition>
+  </series>
+  <series region-code="32" field-code="1">
+    <tuition year="2016">6360</tuition>
+    <tuition year="2017">6550</tuition>
+  </series>
+  <series region-code="32" field-code="2">
+    <tuition year="2016">6934</tuition>
+    <tuition year="2017">7142</tuition>
+  </series>
+  <series region-code="32" field-code="3">
+    <tuition year="2016">6055</tuition>
+    <tuition year="2017">6236</tuition>
+  </series>
+  <series region-code="32" field-code="4">
+    <tuition year="2016">6055</tuition>
+    <tuition year="2017">6236</tuition>
+  </series>
+  <series region-code="32" field-code="5">
+    <tuition year="2016">6055</tuition>
+    <tuition year="2017">6236</tuition>
+  </series>
+  <series region-code="32" field-code="7">
+    <tuition year="2016">6838</tuition>
+    <tuition year="2017">7043</tuition>
+  </series>
+  <series region-code="32" field-code="8">
+    <tuition year="2016">6055</tuition>
+    <tuition year="2017">6236</tuition>
+  </series>
+  <series region-code="32" field-code="9">
+    <tuition year="2016">6838</tuition>
+    <tuition year="2017">7043</tuition>
+  </series>
+  <series region-code="32" field-code="12">
+    <tuition year="2016">6055</tuition>
+    <tuition year="2017">6236</tuition>
+  </series>
+  <series region-code="32" field-code="15">
+    <tuition year="2016">6055</tuition>
+    <tuition year="2017">6236</tuition>
+  </series>
+  <series region-code="32" field-code="18">
+    <tuition year="2016">6055</tuition>
+    <tuition year="2017">6236</tuition>
+  </series>
+  <series region-code="32" field-code="19">
+    <tuition year="2016">6055</tuition>
+    <tuition year="2017">6236</tuition>
+  </series>
+  <series region-code="33" field-code="1">
+    <tuition year="2016">9010</tuition>
+    <tuition year="2017">9194</tuition>
+  </series>
+  <series region-code="33" field-code="2">
+    <tuition year="2016">6294</tuition>
+    <tuition year="2017">6477</tuition>
+  </series>
+  <series region-code="33" field-code="3">
+    <tuition year="2016">6385</tuition>
+    <tuition year="2017">6570</tuition>
+  </series>
+  <series region-code="33" field-code="4">
+    <tuition year="2016">6385</tuition>
+    <tuition year="2017">6570</tuition>
+  </series>
+  <series region-code="33" field-code="5">
+    <tuition year="2016">6396</tuition>
+    <tuition year="2017">6582</tuition>
+  </series>
+  <series region-code="33" field-code="6">
+    <tuition year="2016">18330</tuition>
+    <tuition year="2017">19247</tuition>
+  </series>
+  <series region-code="33" field-code="7">
+    <tuition year="2016">15241</tuition>
+    <tuition year="2017">16628</tuition>
+  </series>
+  <series region-code="33" field-code="8">
+    <tuition year="2016">6385</tuition>
+    <tuition year="2017">6570</tuition>
+  </series>
+  <series region-code="33" field-code="9">
+    <tuition year="2016">6416</tuition>
+    <tuition year="2017">6670</tuition>
+  </series>
+  <series region-code="33" field-code="10">
+    <tuition year="2016">12264</tuition>
+    <tuition year="2017">11388</tuition>
+  </series>
+  <series region-code="33" field-code="12">
+    <tuition year="2016">6385</tuition>
+    <tuition year="2017">6570</tuition>
+  </series>
+  <series region-code="33" field-code="14">
+    <tuition year="2016">24867</tuition>
+    <tuition year="2017">25488</tuition>
+  </series>
+  <series region-code="33" field-code="15">
+    <tuition year="2016">6704</tuition>
+    <tuition year="2017">6899</tuition>
+  </series>
+  <series region-code="33" field-code="18">
+    <tuition year="2016">6385</tuition>
+    <tuition year="2017">6570</tuition>
+  </series>
+  <series region-code="34" field-code="1">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="34" field-code="2">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="34" field-code="4">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="34" field-code="5">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="34" field-code="7">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="34" field-code="8">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="34" field-code="9">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="34" field-code="12">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="34" field-code="15">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="34" field-code="19">
+    <tuition year="2016">6393</tuition>
+    <tuition year="2017">6584</tuition>
+  </series>
+  <series region-code="35" field-code="1">
+    <tuition year="2016">7846</tuition>
+    <tuition year="2017">8126</tuition>
+  </series>
+  <series region-code="35" field-code="2">
+    <tuition year="2016">7144</tuition>
+    <tuition year="2017">7359</tuition>
+  </series>
+  <series region-code="35" field-code="3">
+    <tuition year="2016">6134</tuition>
+    <tuition year="2017">6287</tuition>
+  </series>
+  <series region-code="35" field-code="4">
+    <tuition year="2016">6134</tuition>
+    <tuition year="2017">6287</tuition>
+  </series>
+  <series region-code="35" field-code="5">
+    <tuition year="2016">6134</tuition>
+    <tuition year="2017">6287</tuition>
+  </series>
+  <series region-code="35" field-code="6">
+    <tuition year="2016">17694</tuition>
+    <tuition year="2017">18490</tuition>
+  </series>
+  <series region-code="35" field-code="7">
+    <tuition year="2016">8832</tuition>
+    <tuition year="2017">9230</tuition>
+  </series>
+  <series region-code="35" field-code="8">
+    <tuition year="2016">6255</tuition>
+    <tuition year="2017">6442</tuition>
+  </series>
+  <series region-code="35" field-code="9">
+    <tuition year="2016">9095</tuition>
+    <tuition year="2017">9505</tuition>
+  </series>
+  <series region-code="35" field-code="10">
+    <tuition year="2016">9584</tuition>
+    <tuition year="2017">10015</tuition>
+  </series>
+  <series region-code="35" field-code="15">
+    <tuition year="2016">6134</tuition>
+    <tuition year="2017">6287</tuition>
+  </series>
+  <series region-code="35" field-code="18">
+    <tuition year="2016">6255</tuition>
+    <tuition year="2017">6442</tuition>
+  </series>
+  <series region-code="36" field-code="1">
+    <tuition year="2016">8266</tuition>
+    <tuition year="2017">8591</tuition>
+  </series>
+  <series region-code="36" field-code="2">
+    <tuition year="2016">6580</tuition>
+    <tuition year="2017">6777</tuition>
+  </series>
+  <series region-code="36" field-code="3">
+    <tuition year="2016">6827</tuition>
+    <tuition year="2017">7029</tuition>
+  </series>
+  <series region-code="36" field-code="4">
+    <tuition year="2016">6491</tuition>
+    <tuition year="2017">6686</tuition>
+  </series>
+  <series region-code="36" field-code="5">
+    <tuition year="2016">6453</tuition>
+    <tuition year="2017">6636</tuition>
+  </series>
+  <series region-code="36" field-code="6">
+    <tuition year="2016">28250</tuition>
+    <tuition year="2017">29660</tuition>
+  </series>
+  <series region-code="36" field-code="7">
+    <tuition year="2016">8822</tuition>
+    <tuition year="2017">9224</tuition>
+  </series>
+  <series region-code="36" field-code="8">
+    <tuition year="2016">8387</tuition>
+    <tuition year="2017">8726</tuition>
+  </series>
+  <series region-code="36" field-code="9">
+    <tuition year="2016">8070</tuition>
+    <tuition year="2017">8389</tuition>
+  </series>
+  <series region-code="36" field-code="10">
+    <tuition year="2016">12244</tuition>
+    <tuition year="2017">13015</tuition>
+  </series>
+  <series region-code="36" field-code="11">
+    <tuition year="2016">7595</tuition>
+    <tuition year="2017">7903</tuition>
+  </series>
+  <series region-code="36" field-code="12">
+    <tuition year="2016">6469</tuition>
+    <tuition year="2017">6595</tuition>
+  </series>
+  <series region-code="36" field-code="13">
+    <tuition year="2016">37380</tuition>
+    <tuition year="2017">39240</tuition>
+  </series>
+  <series region-code="36" field-code="14">
+    <tuition year="2016">22955</tuition>
+    <tuition year="2017">24440</tuition>
+  </series>
+  <series region-code="36" field-code="15">
+    <tuition year="2016">6669</tuition>
+    <tuition year="2017">6873</tuition>
+  </series>
+  <series region-code="36" field-code="16">
+    <tuition year="2016">18210</tuition>
+    <tuition year="2017">19120</tuition>
+  </series>
+  <series region-code="36" field-code="18">
+    <tuition year="2016">7195</tuition>
+    <tuition year="2017">7414</tuition>
+  </series>
+  <series region-code="36" field-code="19">
+    <tuition year="2016">7957</tuition>
+    <tuition year="2017">8226</tuition>
+  </series>
+  <series region-code="37" field-code="1">
+    <tuition year="2016">7474</tuition>
+    <tuition year="2017">7731</tuition>
+  </series>
+  <series region-code="37" field-code="2">
+    <tuition year="2016">6359</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="37" field-code="5">
+    <tuition year="2016">6359</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="37" field-code="7">
+    <tuition year="2016">8070</tuition>
+    <tuition year="2017">8494</tuition>
+  </series>
+  <series region-code="37" field-code="8">
+    <tuition year="2016">6359</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="37" field-code="9">
+    <tuition year="2016">9378</tuition>
+    <tuition year="2017">9666</tuition>
+  </series>
+  <series region-code="37" field-code="10">
+    <tuition year="2016">9269</tuition>
+    <tuition year="2017">9773</tuition>
+  </series>
+  <series region-code="37" field-code="15">
+    <tuition year="2016">6359</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="37" field-code="18">
+    <tuition year="2016">6359</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="37" field-code="19">
+    <tuition year="2016">6359</tuition>
+    <tuition year="2017">6476</tuition>
+  </series>
+  <series region-code="38" field-code="1">
+    <tuition year="2016">6143</tuition>
+    <tuition year="2017">6327</tuition>
+  </series>
+  <series region-code="38" field-code="3">
+    <tuition year="2016">6143</tuition>
+    <tuition year="2017">6327</tuition>
+  </series>
+  <series region-code="38" field-code="4">
+    <tuition year="2016">6143</tuition>
+    <tuition year="2017">6327</tuition>
+  </series>
+  <series region-code="38" field-code="5">
+    <tuition year="2016">6143</tuition>
+    <tuition year="2017">6327</tuition>
+  </series>
+  <series region-code="38" field-code="6">
+    <tuition year="2016">..</tuition>
+    <tuition year="2017">..</tuition>
+  </series>
+  <series region-code="38" field-code="7">
+    <tuition year="2016">6143</tuition>
+    <tuition year="2017">6327</tuition>
+  </series>
+  <series region-code="38" field-code="8">
+    <tuition year="2016">6143</tuition>
+    <tuition year="2017">6327</tuition>
+  </series>
+  <series region-code="38" field-code="9">
+    <tuition year="2016">6143</tuition>
+    <tuition year="2017">6327</tuition>
+  </series>
+  <series region-code="39" field-code="1">
+    <tuition year="2016">9132</tuition>
+    <tuition year="2017">9461</tuition>
+  </series>
+  <series region-code="39" field-code="2">
+    <tuition year="2016">8371</tuition>
+    <tuition year="2017">8559</tuition>
+  </series>
+  <series region-code="39" field-code="3">
+    <tuition year="2016">6582</tuition>
+    <tuition year="2017">7143</tuition>
+  </series>
+  <series region-code="39" field-code="4">
+    <tuition year="2016">6560</tuition>
+    <tuition year="2017">6707</tuition>
+  </series>
+  <series region-code="39" field-code="5">
+    <tuition year="2016">6560</tuition>
+    <tuition year="2017">6730</tuition>
+  </series>
+  <series region-code="39" field-code="6">
+    <tuition year="2016">..</tuition>
+    <tuition year="2017">..</tuition>
+  </series>
+  <series region-code="39" field-code="7">
+    <tuition year="2016">9769</tuition>
+    <tuition year="2017">9991</tuition>
+  </series>
+  <series region-code="39" field-code="8">
+    <tuition year="2016">6852</tuition>
+    <tuition year="2017">7053</tuition>
+  </series>
+  <series region-code="39" field-code="9">
+    <tuition year="2016">9836</tuition>
+    <tuition year="2017">10245</tuition>
+  </series>
+  <series region-code="39" field-code="10">
+    <tuition year="2016">14598</tuition>
+    <tuition year="2017">15422</tuition>
+  </series>
+  <series region-code="39" field-code="11">
+    <tuition year="2016">8255</tuition>
+    <tuition year="2017">8590</tuition>
+  </series>
+  <series region-code="39" field-code="12">
+    <tuition year="2016">7110</tuition>
+    <tuition year="2017">7335</tuition>
+  </series>
+  <series region-code="39" field-code="16">
+    <tuition year="2016">19149</tuition>
+    <tuition year="2017">19457</tuition>
+  </series>
+  <series region-code="39" field-code="18">
+    <tuition year="2016">9478</tuition>
+    <tuition year="2017">9824</tuition>
+  </series>
+  <series region-code="40" field-code="1">
+    <tuition year="2016">10576</tuition>
+    <tuition year="2017">10971</tuition>
+  </series>
+  <series region-code="40" field-code="2">
+    <tuition year="2016">7616</tuition>
+    <tuition year="2017">7844</tuition>
+  </series>
+  <series region-code="40" field-code="3">
+    <tuition year="2016">6338</tuition>
+    <tuition year="2017">6528</tuition>
+  </series>
+  <series region-code="40" field-code="4">
+    <tuition year="2016">6338</tuition>
+    <tuition year="2017">6528</tuition>
+  </series>
+  <series region-code="40" field-code="5">
+    <tuition year="2016">6341</tuition>
+    <tuition year="2017">6531</tuition>
+  </series>
+  <series region-code="40" field-code="6">
+    <tuition year="2016">20309</tuition>
+    <tuition year="2017">21324</tuition>
+  </series>
+  <series region-code="40" field-code="7">
+    <tuition year="2016">25652</tuition>
+    <tuition year="2017">26750</tuition>
+  </series>
+  <series region-code="40" field-code="8">
+    <tuition year="2016">6343</tuition>
+    <tuition year="2017">6533</tuition>
+  </series>
+  <series region-code="40" field-code="9">
+    <tuition year="2016">6338</tuition>
+    <tuition year="2017">6528</tuition>
+  </series>
+  <series region-code="40" field-code="10">
+    <tuition year="2016">12392</tuition>
+    <tuition year="2017">13011</tuition>
+  </series>
+  <series region-code="40" field-code="13">
+    <tuition year="2016">35619</tuition>
+    <tuition year="2017">37399</tuition>
+  </series>
+  <series region-code="40" field-code="14">
+    <tuition year="2016">25123</tuition>
+    <tuition year="2017">25876</tuition>
+  </series>
+  <series region-code="40" field-code="15">
+    <tuition year="2016">6338</tuition>
+    <tuition year="2017">6528</tuition>
+  </series>
+  <series region-code="40" field-code="18">
+    <tuition year="2016">6338</tuition>
+    <tuition year="2017">6528</tuition>
+  </series>
+  <series region-code="66" field-code="1">
+    <tuition year="2016">7277</tuition>
+    <tuition year="2017">7468</tuition>
+  </series>
+  <series region-code="66" field-code="3">
+    <tuition year="2016">7310</tuition>
+    <tuition year="2017">7529</tuition>
+  </series>
+  <series region-code="66" field-code="7">
+    <tuition year="2016">7988</tuition>
+    <tuition year="2017">8174</tuition>
+  </series>
+  <series region-code="66" field-code="19">
+    <tuition year="2016">6408</tuition>
+    <tuition year="2017">6600</tuition>
+  </series>
+  <series region-code="41" field-code="1">
+    <tuition year="2016">4099</tuition>
+    <tuition year="2017">4158</tuition>
+  </series>
+  <series region-code="41" field-code="2">
+    <tuition year="2016">3606</tuition>
+    <tuition year="2017">3652</tuition>
+  </series>
+  <series region-code="41" field-code="3">
+    <tuition year="2016">3864</tuition>
+    <tuition year="2017">3915</tuition>
+  </series>
+  <series region-code="41" field-code="4">
+    <tuition year="2016">3539</tuition>
+    <tuition year="2017">3585</tuition>
+  </series>
+  <series region-code="41" field-code="5">
+    <tuition year="2016">3553</tuition>
+    <tuition year="2017">3599</tuition>
+  </series>
+  <series region-code="41" field-code="6">
+    <tuition year="2016">9596</tuition>
+    <tuition year="2017">9721</tuition>
+  </series>
+  <series region-code="41" field-code="7">
+    <tuition year="2016">4096</tuition>
+    <tuition year="2017">4177</tuition>
+  </series>
+  <series region-code="41" field-code="8">
+    <tuition year="2016">3814</tuition>
+    <tuition year="2017">3864</tuition>
+  </series>
+  <series region-code="41" field-code="9">
+    <tuition year="2016">3778</tuition>
+    <tuition year="2017">3827</tuition>
+  </series>
+  <series region-code="41" field-code="10">
+    <tuition year="2016">5506</tuition>
+    <tuition year="2017">5577</tuition>
+  </series>
+  <series region-code="41" field-code="11">
+    <tuition year="2016">4175</tuition>
+    <tuition year="2017">4229</tuition>
+  </series>
+  <series region-code="41" field-code="12">
+    <tuition year="2016">4032</tuition>
+    <tuition year="2017">4084</tuition>
+  </series>
+  <series region-code="41" field-code="13">
+    <tuition year="2016">20070</tuition>
+    <tuition year="2017">20331</tuition>
+  </series>
+  <series region-code="41" field-code="14">
+    <tuition year="2016">..</tuition>
+    <tuition year="2017">..</tuition>
+  </series>
+  <series region-code="41" field-code="15">
+    <tuition year="2016">5052</tuition>
+    <tuition year="2017">5165</tuition>
+  </series>
+  <series region-code="41" field-code="16">
+    <tuition year="2016">7863</tuition>
+    <tuition year="2017">7965</tuition>
+  </series>
+  <series region-code="41" field-code="18">
+    <tuition year="2016">3876</tuition>
+    <tuition year="2017">3926</tuition>
+  </series>
+  <series region-code="41" field-code="19">
+    <tuition year="2016">3663</tuition>
+    <tuition year="2017">3709</tuition>
+  </series>
+  <series region-code="42" field-code="1">
+    <tuition year="2016">4140</tuition>
+    <tuition year="2017">4198</tuition>
+  </series>
+  <series region-code="42" field-code="2">
+    <tuition year="2016">3645</tuition>
+    <tuition year="2017">3692</tuition>
+  </series>
+  <series region-code="42" field-code="3">
+    <tuition year="2016">3914</tuition>
+    <tuition year="2017">3965</tuition>
+  </series>
+  <series region-code="42" field-code="4">
+    <tuition year="2016">3524</tuition>
+    <tuition year="2017">3570</tuition>
+  </series>
+  <series region-code="42" field-code="5">
+    <tuition year="2016">3560</tuition>
+    <tuition year="2017">3607</tuition>
+  </series>
+  <series region-code="42" field-code="6">
+    <tuition year="2016">9596</tuition>
+    <tuition year="2017">9721</tuition>
+  </series>
+  <series region-code="42" field-code="7">
+    <tuition year="2016">4153</tuition>
+    <tuition year="2017">4213</tuition>
+  </series>
+  <series region-code="42" field-code="8">
+    <tuition year="2016">3828</tuition>
+    <tuition year="2017">3877</tuition>
+  </series>
+  <series region-code="42" field-code="9">
+    <tuition year="2016">3792</tuition>
+    <tuition year="2017">3841</tuition>
+  </series>
+  <series region-code="42" field-code="10">
+    <tuition year="2016">5506</tuition>
+    <tuition year="2017">5577</tuition>
+  </series>
+  <series region-code="42" field-code="11">
+    <tuition year="2016">4175</tuition>
+    <tuition year="2017">4229</tuition>
+  </series>
+  <series region-code="42" field-code="12">
+    <tuition year="2016">4051</tuition>
+    <tuition year="2017">4104</tuition>
+  </series>
+  <series region-code="42" field-code="13">
+    <tuition year="2016">20070</tuition>
+    <tuition year="2017">20331</tuition>
+  </series>
+  <series region-code="42" field-code="14">
+    <tuition year="2016">..</tuition>
+    <tuition year="2017">..</tuition>
+  </series>
+  <series region-code="42" field-code="15">
+    <tuition year="2016">5414</tuition>
+    <tuition year="2017">5545</tuition>
+  </series>
+  <series region-code="42" field-code="16">
+    <tuition year="2016">7863</tuition>
+    <tuition year="2017">7965</tuition>
+  </series>
+  <series region-code="42" field-code="18">
+    <tuition year="2016">3876</tuition>
+    <tuition year="2017">3926</tuition>
+  </series>
+  <series region-code="42" field-code="19">
+    <tuition year="2016">3663</tuition>
+    <tuition year="2017">3709</tuition>
+  </series>
+  <series region-code="43" field-code="1">
+    <tuition year="2016">3509</tuition>
+    <tuition year="2017">3554</tuition>
+  </series>
+  <series region-code="43" field-code="2">
+    <tuition year="2016">3396</tuition>
+    <tuition year="2017">3440</tuition>
+  </series>
+  <series region-code="43" field-code="3">
+    <tuition year="2016">3440</tuition>
+    <tuition year="2017">3485</tuition>
+  </series>
+  <series region-code="43" field-code="4">
+    <tuition year="2016">3336</tuition>
+    <tuition year="2017">3379</tuition>
+  </series>
+  <series region-code="43" field-code="5">
+    <tuition year="2016">3480</tuition>
+    <tuition year="2017">3525</tuition>
+  </series>
+  <series region-code="43" field-code="7">
+    <tuition year="2016">3336</tuition>
+    <tuition year="2017">3379</tuition>
+  </series>
+  <series region-code="43" field-code="8">
+    <tuition year="2016">3624</tuition>
+    <tuition year="2017">3671</tuition>
+  </series>
+  <series region-code="43" field-code="9">
+    <tuition year="2016">3624</tuition>
+    <tuition year="2017">3671</tuition>
+  </series>
+  <series region-code="43" field-code="12">
+    <tuition year="2016">3624</tuition>
+    <tuition year="2017">3671</tuition>
+  </series>
+  <series region-code="43" field-code="15">
+    <tuition year="2016">3690</tuition>
+    <tuition year="2017">3738</tuition>
+  </series>
+  <series region-code="44" field-code="1">
+    <tuition year="2016">4224</tuition>
+    <tuition year="2017">4668</tuition>
+  </series>
+  <series region-code="44" field-code="2">
+    <tuition year="2016">4377</tuition>
+    <tuition year="2017">4434</tuition>
+  </series>
+  <series region-code="44" field-code="4">
+    <tuition year="2016">4672</tuition>
+    <tuition year="2017">4733</tuition>
+  </series>
+  <series region-code="44" field-code="7">
+    <tuition year="2016">2188</tuition>
+    <tuition year="2017">4434</tuition>
+  </series>
+  <series region-code="45" field-code="1">
+    <tuition year="2016">7042</tuition>
+    <tuition year="2017">7205</tuition>
+  </series>
+  <series region-code="45" field-code="2">
+    <tuition year="2016">6187</tuition>
+    <tuition year="2017">6355</tuition>
+  </series>
+  <series region-code="45" field-code="3">
+    <tuition year="2016">6387</tuition>
+    <tuition year="2017">6543</tuition>
+  </series>
+  <series region-code="45" field-code="4">
+    <tuition year="2016">6035</tuition>
+    <tuition year="2017">6184</tuition>
+  </series>
+  <series region-code="45" field-code="5">
+    <tuition year="2016">5983</tuition>
+    <tuition year="2017">6129</tuition>
+  </series>
+  <series region-code="45" field-code="6">
+    <tuition year="2016">12624</tuition>
+    <tuition year="2017">13002</tuition>
+  </series>
+  <series region-code="45" field-code="7">
+    <tuition year="2016">7002</tuition>
+    <tuition year="2017">7175</tuition>
+  </series>
+  <series region-code="45" field-code="8">
+    <tuition year="2016">6178</tuition>
+    <tuition year="2017">6334</tuition>
+  </series>
+  <series region-code="45" field-code="9">
+    <tuition year="2016">6265</tuition>
+    <tuition year="2017">6423</tuition>
+  </series>
+  <series region-code="45" field-code="10">
+    <tuition year="2016">7305</tuition>
+    <tuition year="2017">7358</tuition>
+  </series>
+  <series region-code="45" field-code="12">
+    <tuition year="2016">5972</tuition>
+    <tuition year="2017">6119</tuition>
+  </series>
+  <series region-code="45" field-code="13">
+    <tuition year="2016">32960</tuition>
+    <tuition year="2017">33619</tuition>
+  </series>
+  <series region-code="45" field-code="14">
+    <tuition year="2016">16236</tuition>
+    <tuition year="2017">16642</tuition>
+  </series>
+  <series region-code="45" field-code="15">
+    <tuition year="2016">7154</tuition>
+    <tuition year="2017">7333</tuition>
+  </series>
+  <series region-code="45" field-code="16">
+    <tuition year="2016">8456</tuition>
+    <tuition year="2017">8673</tuition>
+  </series>
+  <series region-code="45" field-code="17">
+    <tuition year="2016">9114</tuition>
+    <tuition year="2017">9296</tuition>
+  </series>
+  <series region-code="45" field-code="18">
+    <tuition year="2016">6330</tuition>
+    <tuition year="2017">6491</tuition>
+  </series>
+  <series region-code="45" field-code="19">
+    <tuition year="2016">6195</tuition>
+    <tuition year="2017">6353</tuition>
+  </series>
+  <series region-code="46" field-code="1">
+    <tuition year="2016">6588</tuition>
+    <tuition year="2017">6752</tuition>
+  </series>
+  <series region-code="46" field-code="2">
+    <tuition year="2016">6382</tuition>
+    <tuition year="2017">6540</tuition>
+  </series>
+  <series region-code="46" field-code="3">
+    <tuition year="2016">6570</tuition>
+    <tuition year="2017">6735</tuition>
+  </series>
+  <series region-code="46" field-code="4">
+    <tuition year="2016">6195</tuition>
+    <tuition year="2017">6353</tuition>
+  </series>
+  <series region-code="46" field-code="5">
+    <tuition year="2016">6195</tuition>
+    <tuition year="2017">6353</tuition>
+  </series>
+  <series region-code="46" field-code="7">
+    <tuition year="2016">6810</tuition>
+    <tuition year="2017">6979</tuition>
+  </series>
+  <series region-code="46" field-code="8">
+    <tuition year="2016">6570</tuition>
+    <tuition year="2017">6735</tuition>
+  </series>
+  <series region-code="46" field-code="9">
+    <tuition year="2016">6570</tuition>
+    <tuition year="2017">6735</tuition>
+  </series>
+  <series region-code="46" field-code="10">
+    <tuition year="2016">6885</tuition>
+    <tuition year="2017">7058</tuition>
+  </series>
+  <series region-code="46" field-code="15">
+    <tuition year="2016">6908</tuition>
+    <tuition year="2017">7080</tuition>
+  </series>
+  <series region-code="46" field-code="18">
+    <tuition year="2016">6570</tuition>
+    <tuition year="2017">6735</tuition>
+  </series>
+  <series region-code="46" field-code="19">
+    <tuition year="2016">6195</tuition>
+    <tuition year="2017">6353</tuition>
+  </series>
+  <series region-code="47" field-code="1">
+    <tuition year="2016">7350</tuition>
+    <tuition year="2017">7511</tuition>
+  </series>
+  <series region-code="47" field-code="2">
+    <tuition year="2016">5955</tuition>
+    <tuition year="2017">6135</tuition>
+  </series>
+  <series region-code="47" field-code="3">
+    <tuition year="2016">6104</tuition>
+    <tuition year="2017">6246</tuition>
+  </series>
+  <series region-code="47" field-code="4">
+    <tuition year="2016">5855</tuition>
+    <tuition year="2017">5994</tuition>
+  </series>
+  <series region-code="47" field-code="5">
+    <tuition year="2016">5855</tuition>
+    <tuition year="2017">5994</tuition>
+  </series>
+  <series region-code="47" field-code="6">
+    <tuition year="2016">12624</tuition>
+    <tuition year="2017">13002</tuition>
+  </series>
+  <series region-code="47" field-code="7">
+    <tuition year="2016">7230</tuition>
+    <tuition year="2017">7406</tuition>
+  </series>
+  <series region-code="47" field-code="8">
+    <tuition year="2016">6075</tuition>
+    <tuition year="2017">6229</tuition>
+  </series>
+  <series region-code="47" field-code="9">
+    <tuition year="2016">6075</tuition>
+    <tuition year="2017">6229</tuition>
+  </series>
+  <series region-code="47" field-code="10">
+    <tuition year="2016">7491</tuition>
+    <tuition year="2017">7491</tuition>
+  </series>
+  <series region-code="47" field-code="12">
+    <tuition year="2016">5972</tuition>
+    <tuition year="2017">6119</tuition>
+  </series>
+  <series region-code="47" field-code="13">
+    <tuition year="2016">32960</tuition>
+    <tuition year="2017">33619</tuition>
+  </series>
+  <series region-code="47" field-code="14">
+    <tuition year="2016">16236</tuition>
+    <tuition year="2017">16642</tuition>
+  </series>
+  <series region-code="47" field-code="15">
+    <tuition year="2016">7458</tuition>
+    <tuition year="2017">7646</tuition>
+  </series>
+  <series region-code="47" field-code="16">
+    <tuition year="2016">8456</tuition>
+    <tuition year="2017">8673</tuition>
+  </series>
+  <series region-code="47" field-code="17">
+    <tuition year="2016">9114</tuition>
+    <tuition year="2017">9296</tuition>
+  </series>
+  <series region-code="47" field-code="18">
+    <tuition year="2016">5945</tuition>
+    <tuition year="2017">6100</tuition>
+  </series>
+  <series region-code="48" field-code="1">
+    <tuition year="2016">5742</tuition>
+    <tuition year="2017">5749</tuition>
+  </series>
+  <series region-code="48" field-code="2">
+    <tuition year="2016">5269</tuition>
+    <tuition year="2017">5269</tuition>
+  </series>
+  <series region-code="48" field-code="3">
+    <tuition year="2016">4975</tuition>
+    <tuition year="2017">4975</tuition>
+  </series>
+  <series region-code="48" field-code="4">
+    <tuition year="2016">5050</tuition>
+    <tuition year="2017">5050</tuition>
+  </series>
+  <series region-code="48" field-code="5">
+    <tuition year="2016">5247</tuition>
+    <tuition year="2017">5290</tuition>
+  </series>
+  <series region-code="48" field-code="6">
+    <tuition year="2016">11031</tuition>
+    <tuition year="2017">11031</tuition>
+  </series>
+  <series region-code="48" field-code="7">
+    <tuition year="2016">5868</tuition>
+    <tuition year="2017">5868</tuition>
+  </series>
+  <series region-code="48" field-code="8">
+    <tuition year="2016">5320</tuition>
+    <tuition year="2017">5320</tuition>
+  </series>
+  <series region-code="48" field-code="9">
+    <tuition year="2016">5244</tuition>
+    <tuition year="2017">5244</tuition>
+  </series>
+  <series region-code="48" field-code="10">
+    <tuition year="2016">6420</tuition>
+    <tuition year="2017">6420</tuition>
+  </series>
+  <series region-code="48" field-code="12">
+    <tuition year="2016">5210</tuition>
+    <tuition year="2017">5192</tuition>
+  </series>
+  <series region-code="48" field-code="13">
+    <tuition year="2016">20184</tuition>
+    <tuition year="2017">20184</tuition>
+  </series>
+  <series region-code="48" field-code="14">
+    <tuition year="2016">13326</tuition>
+    <tuition year="2017">13326</tuition>
+  </series>
+  <series region-code="48" field-code="15">
+    <tuition year="2016">5847</tuition>
+    <tuition year="2017">5847</tuition>
+  </series>
+  <series region-code="48" field-code="16">
+    <tuition year="2016">9987</tuition>
+    <tuition year="2017">9987</tuition>
+  </series>
+  <series region-code="48" field-code="17">
+    <tuition year="2016">10864</tuition>
+    <tuition year="2017">10864</tuition>
+  </series>
+  <series region-code="48" field-code="18">
+    <tuition year="2016">5165</tuition>
+    <tuition year="2017">5165</tuition>
+  </series>
+  <series region-code="48" field-code="19">
+    <tuition year="2016">4942</tuition>
+    <tuition year="2017">4942</tuition>
+  </series>
+  <series region-code="49" field-code="1">
+    <tuition year="2016">5836</tuition>
+    <tuition year="2017">5836</tuition>
+  </series>
+  <series region-code="49" field-code="2">
+    <tuition year="2016">5321</tuition>
+    <tuition year="2017">5321</tuition>
+  </series>
+  <series region-code="49" field-code="3">
+    <tuition year="2016">5378</tuition>
+    <tuition year="2017">5378</tuition>
+  </series>
+  <series region-code="49" field-code="4">
+    <tuition year="2016">4956</tuition>
+    <tuition year="2017">4956</tuition>
+  </series>
+  <series region-code="49" field-code="5">
+    <tuition year="2016">5354</tuition>
+    <tuition year="2017">5354</tuition>
+  </series>
+  <series region-code="49" field-code="6">
+    <tuition year="2016">10221</tuition>
+    <tuition year="2017">10221</tuition>
+  </series>
+  <series region-code="49" field-code="7">
+    <tuition year="2016">5494</tuition>
+    <tuition year="2017">5494</tuition>
+  </series>
+  <series region-code="49" field-code="8">
+    <tuition year="2016">5328</tuition>
+    <tuition year="2017">5328</tuition>
+  </series>
+  <series region-code="49" field-code="9">
+    <tuition year="2016">5227</tuition>
+    <tuition year="2017">5227</tuition>
+  </series>
+  <series region-code="49" field-code="10">
+    <tuition year="2016">6385</tuition>
+    <tuition year="2017">6385</tuition>
+  </series>
+  <series region-code="49" field-code="12">
+    <tuition year="2016">5321</tuition>
+    <tuition year="2017">5321</tuition>
+  </series>
+  <series region-code="49" field-code="13">
+    <tuition year="2016">20184</tuition>
+    <tuition year="2017">20184</tuition>
+  </series>
+  <series region-code="49" field-code="14">
+    <tuition year="2016">12044</tuition>
+    <tuition year="2017">12044</tuition>
+  </series>
+  <series region-code="49" field-code="15">
+    <tuition year="2016">6555</tuition>
+    <tuition year="2017">6555</tuition>
+  </series>
+  <series region-code="49" field-code="16">
+    <tuition year="2016">9987</tuition>
+    <tuition year="2017">9987</tuition>
+  </series>
+  <series region-code="49" field-code="18">
+    <tuition year="2016">5321</tuition>
+    <tuition year="2017">5321</tuition>
+  </series>
+  <series region-code="50" field-code="1">
+    <tuition year="2016">5831</tuition>
+    <tuition year="2017">5848</tuition>
+  </series>
+  <series region-code="50" field-code="2">
+    <tuition year="2016">5261</tuition>
+    <tuition year="2017">5261</tuition>
+  </series>
+  <series region-code="50" field-code="3">
+    <tuition year="2016">4825</tuition>
+    <tuition year="2017">4825</tuition>
+  </series>
+  <series region-code="50" field-code="4">
+    <tuition year="2016">5213</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="50" field-code="5">
+    <tuition year="2016">5209</tuition>
+    <tuition year="2017">5291</tuition>
+  </series>
+  <series region-code="50" field-code="6">
+    <tuition year="2016">12315</tuition>
+    <tuition year="2017">12315</tuition>
+  </series>
+  <series region-code="50" field-code="7">
+    <tuition year="2016">6443</tuition>
+    <tuition year="2017">6443</tuition>
+  </series>
+  <series region-code="50" field-code="8">
+    <tuition year="2016">5372</tuition>
+    <tuition year="2017">5372</tuition>
+  </series>
+  <series region-code="50" field-code="9">
+    <tuition year="2016">5310</tuition>
+    <tuition year="2017">5310</tuition>
+  </series>
+  <series region-code="50" field-code="10">
+    <tuition year="2016">6463</tuition>
+    <tuition year="2017">6463</tuition>
+  </series>
+  <series region-code="50" field-code="12">
+    <tuition year="2016">5264</tuition>
+    <tuition year="2017">5264</tuition>
+  </series>
+  <series region-code="50" field-code="14">
+    <tuition year="2016">15012</tuition>
+    <tuition year="2017">15012</tuition>
+  </series>
+  <series region-code="50" field-code="15">
+    <tuition year="2016">5150</tuition>
+    <tuition year="2017">5150</tuition>
+  </series>
+  <series region-code="50" field-code="17">
+    <tuition year="2016">10864</tuition>
+    <tuition year="2017">10864</tuition>
+  </series>
+  <series region-code="50" field-code="18">
+    <tuition year="2016">5182</tuition>
+    <tuition year="2017">5182</tuition>
+  </series>
+  <series region-code="50" field-code="19">
+    <tuition year="2016">4942</tuition>
+    <tuition year="2017">4942</tuition>
+  </series>
+  <series region-code="51" field-code="1">
+    <tuition year="2016">4981</tuition>
+    <tuition year="2017">4978</tuition>
+  </series>
+  <series region-code="51" field-code="2">
+    <tuition year="2016">4974</tuition>
+    <tuition year="2017">4974</tuition>
+  </series>
+  <series region-code="51" field-code="3">
+    <tuition year="2016">4974</tuition>
+    <tuition year="2017">4974</tuition>
+  </series>
+  <series region-code="51" field-code="4">
+    <tuition year="2016">4974</tuition>
+    <tuition year="2017">4974</tuition>
+  </series>
+  <series region-code="51" field-code="5">
+    <tuition year="2016">4974</tuition>
+    <tuition year="2017">4974</tuition>
+  </series>
+  <series region-code="51" field-code="7">
+    <tuition year="2016">4974</tuition>
+    <tuition year="2017">4974</tuition>
+  </series>
+  <series region-code="51" field-code="8">
+    <tuition year="2016">4974</tuition>
+    <tuition year="2017">4974</tuition>
+  </series>
+  <series region-code="51" field-code="9">
+    <tuition year="2016">4974</tuition>
+    <tuition year="2017">4974</tuition>
+  </series>
+  <series region-code="51" field-code="12">
+    <tuition year="2016">5185</tuition>
+    <tuition year="2017">5087</tuition>
+  </series>
+  <series region-code="51" field-code="15">
+    <tuition year="2016">4974</tuition>
+    <tuition year="2017">4974</tuition>
+  </series>
+  <series region-code="51" field-code="18">
+    <tuition year="2016">4974</tuition>
+    <tuition year="2017">4974</tuition>
+  </series>
+  <series region-code="52" field-code="1">
+    <tuition year="2016">4239</tuition>
+    <tuition year="2017">4239</tuition>
+  </series>
+  <series region-code="52" field-code="3">
+    <tuition year="2016">4271</tuition>
+    <tuition year="2017">4271</tuition>
+  </series>
+  <series region-code="52" field-code="18">
+    <tuition year="2016">4212</tuition>
+    <tuition year="2017">4212</tuition>
+  </series>
+  <series region-code="53" field-code="1">
+    <tuition year="2016">2984</tuition>
+    <tuition year="2017">2984</tuition>
+  </series>
+  <series region-code="53" field-code="3">
+    <tuition year="2016">2984</tuition>
+    <tuition year="2017">2984</tuition>
+  </series>
+  <series region-code="54" field-code="1">
+    <tuition year="2016">5405</tuition>
+    <tuition year="2017">5405</tuition>
+  </series>
+  <series region-code="54" field-code="4">
+    <tuition year="2016">5405</tuition>
+    <tuition year="2017">5405</tuition>
+  </series>
+  <series region-code="54" field-code="5">
+    <tuition year="2016">5405</tuition>
+    <tuition year="2017">5405</tuition>
+  </series>
+  <series region-code="54" field-code="7">
+    <tuition year="2016">5405</tuition>
+    <tuition year="2017">5405</tuition>
+  </series>
+  <series region-code="54" field-code="8">
+    <tuition year="2016">5405</tuition>
+    <tuition year="2017">5405</tuition>
+  </series>
+  <series region-code="54" field-code="9">
+    <tuition year="2016">5405</tuition>
+    <tuition year="2017">5405</tuition>
+  </series>
+  <series region-code="54" field-code="15">
+    <tuition year="2016">5405</tuition>
+    <tuition year="2017">5405</tuition>
+  </series>
+  <series region-code="55" field-code="1">
+    <tuition year="2016">4380</tuition>
+    <tuition year="2017">4380</tuition>
+  </series>
+  <series region-code="55" field-code="12">
+    <tuition year="2016">4380</tuition>
+    <tuition year="2017">4380</tuition>
+  </series>
+  <series region-code="55" field-code="18">
+    <tuition year="2016">4380</tuition>
+    <tuition year="2017">4380</tuition>
+  </series>
+  <series region-code="56" field-code="1">
+    <tuition year="2016">4743</tuition>
+    <tuition year="2017">4743</tuition>
+  </series>
+  <series region-code="56" field-code="12">
+    <tuition year="2016">4743</tuition>
+    <tuition year="2017">4743</tuition>
+  </series>
+  <series region-code="57" field-code="1">
+    <tuition year="2016">5523</tuition>
+    <tuition year="2017">5635</tuition>
+  </series>
+  <series region-code="57" field-code="2">
+    <tuition year="2016">5229</tuition>
+    <tuition year="2017">5333</tuition>
+  </series>
+  <series region-code="57" field-code="3">
+    <tuition year="2016">5309</tuition>
+    <tuition year="2017">5415</tuition>
+  </series>
+  <series region-code="57" field-code="4">
+    <tuition year="2016">4836</tuition>
+    <tuition year="2017">4933</tuition>
+  </series>
+  <series region-code="57" field-code="5">
+    <tuition year="2016">5050</tuition>
+    <tuition year="2017">5151</tuition>
+  </series>
+  <series region-code="57" field-code="6">
+    <tuition year="2016">11112</tuition>
+    <tuition year="2017">11334</tuition>
+  </series>
+  <series region-code="57" field-code="7">
+    <tuition year="2016">5188</tuition>
+    <tuition year="2017">5298</tuition>
+  </series>
+  <series region-code="57" field-code="8">
+    <tuition year="2016">4999</tuition>
+    <tuition year="2017">5099</tuition>
+  </series>
+  <series region-code="57" field-code="9">
+    <tuition year="2016">5032</tuition>
+    <tuition year="2017">5133</tuition>
+  </series>
+  <series region-code="57" field-code="10">
+    <tuition year="2016">5509</tuition>
+    <tuition year="2017">5620</tuition>
+  </series>
+  <series region-code="57" field-code="11">
+    <tuition year="2016">5396</tuition>
+    <tuition year="2017">5504</tuition>
+  </series>
+  <series region-code="57" field-code="12">
+    <tuition year="2016">4983</tuition>
+    <tuition year="2017">5082</tuition>
+  </series>
+  <series region-code="57" field-code="13">
+    <tuition year="2016">27653</tuition>
+    <tuition year="2017">28206</tuition>
+  </series>
+  <series region-code="57" field-code="14">
+    <tuition year="2016">17407</tuition>
+    <tuition year="2017">17755</tuition>
+  </series>
+  <series region-code="57" field-code="15">
+    <tuition year="2016">4382</tuition>
+    <tuition year="2017">4469</tuition>
+  </series>
+  <series region-code="57" field-code="16">
+    <tuition year="2016">12256</tuition>
+    <tuition year="2017">12501</tuition>
+  </series>
+  <series region-code="57" field-code="18">
+    <tuition year="2016">4992</tuition>
+    <tuition year="2017">5092</tuition>
+  </series>
+  <series region-code="57" field-code="19">
+    <tuition year="2016">5334</tuition>
+    <tuition year="2017">5440</tuition>
+  </series>
+  <series region-code="58" field-code="1">
+    <tuition year="2016">5827</tuition>
+    <tuition year="2017">5947</tuition>
+  </series>
+  <series region-code="58" field-code="2">
+    <tuition year="2016">5556</tuition>
+    <tuition year="2017">5667</tuition>
+  </series>
+  <series region-code="58" field-code="3">
+    <tuition year="2016">5364</tuition>
+    <tuition year="2017">5471</tuition>
+  </series>
+  <series region-code="58" field-code="4">
+    <tuition year="2016">5102</tuition>
+    <tuition year="2017">5204</tuition>
+  </series>
+  <series region-code="58" field-code="5">
+    <tuition year="2016">4982</tuition>
+    <tuition year="2017">5082</tuition>
+  </series>
+  <series region-code="58" field-code="6">
+    <tuition year="2016">11911</tuition>
+    <tuition year="2017">12149</tuition>
+  </series>
+  <series region-code="58" field-code="7">
+    <tuition year="2016">5216</tuition>
+    <tuition year="2017">5339</tuition>
+  </series>
+  <series region-code="58" field-code="8">
+    <tuition year="2016">5165</tuition>
+    <tuition year="2017">5269</tuition>
+  </series>
+  <series region-code="58" field-code="9">
+    <tuition year="2016">5148</tuition>
+    <tuition year="2017">5251</tuition>
+  </series>
+  <series region-code="58" field-code="10">
+    <tuition year="2016">5424</tuition>
+    <tuition year="2017">5533</tuition>
+  </series>
+  <series region-code="58" field-code="11">
+    <tuition year="2016">5396</tuition>
+    <tuition year="2017">5504</tuition>
+  </series>
+  <series region-code="58" field-code="12">
+    <tuition year="2016">5085</tuition>
+    <tuition year="2017">5187</tuition>
+  </series>
+  <series region-code="58" field-code="13">
+    <tuition year="2016">27653</tuition>
+    <tuition year="2017">28206</tuition>
+  </series>
+  <series region-code="58" field-code="14">
+    <tuition year="2016">17407</tuition>
+    <tuition year="2017">17755</tuition>
+  </series>
+  <series region-code="58" field-code="15">
+    <tuition year="2016">4350</tuition>
+    <tuition year="2017">4437</tuition>
+  </series>
+  <series region-code="58" field-code="16">
+    <tuition year="2016">12256</tuition>
+    <tuition year="2017">12501</tuition>
+  </series>
+  <series region-code="58" field-code="18">
+    <tuition year="2016">5101</tuition>
+    <tuition year="2017">5203</tuition>
+  </series>
+  <series region-code="58" field-code="19">
+    <tuition year="2016">5334</tuition>
+    <tuition year="2017">5440</tuition>
+  </series>
+  <series region-code="59" field-code="1">
+    <tuition year="2016">5591</tuition>
+    <tuition year="2017">5698</tuition>
+  </series>
+  <series region-code="59" field-code="2">
+    <tuition year="2016">5368</tuition>
+    <tuition year="2017">5475</tuition>
+  </series>
+  <series region-code="59" field-code="3">
+    <tuition year="2016">5368</tuition>
+    <tuition year="2017">5475</tuition>
+  </series>
+  <series region-code="59" field-code="4">
+    <tuition year="2016">5368</tuition>
+    <tuition year="2017">5475</tuition>
+  </series>
+  <series region-code="59" field-code="5">
+    <tuition year="2016">5456</tuition>
+    <tuition year="2017">5565</tuition>
+  </series>
+  <series region-code="59" field-code="6">
+    <tuition year="2016">9393</tuition>
+    <tuition year="2017">9581</tuition>
+  </series>
+  <series region-code="59" field-code="7">
+    <tuition year="2016">5661</tuition>
+    <tuition year="2017">5750</tuition>
+  </series>
+  <series region-code="59" field-code="8">
+    <tuition year="2016">5368</tuition>
+    <tuition year="2017">5475</tuition>
+  </series>
+  <series region-code="59" field-code="9">
+    <tuition year="2016">5368</tuition>
+    <tuition year="2017">5475</tuition>
+  </series>
+  <series region-code="59" field-code="10">
+    <tuition year="2016">5882</tuition>
+    <tuition year="2017">6000</tuition>
+  </series>
+  <series region-code="59" field-code="12">
+    <tuition year="2016">6269</tuition>
+    <tuition year="2017">6393</tuition>
+  </series>
+  <series region-code="59" field-code="15">
+    <tuition year="2016">5368</tuition>
+    <tuition year="2017">5475</tuition>
+  </series>
+  <series region-code="59" field-code="18">
+    <tuition year="2016">4907</tuition>
+    <tuition year="2017">5005</tuition>
+  </series>
+  <series region-code="60" field-code="1">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="2">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="4">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="5">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="7">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="8">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="9">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="10">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="12">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="15">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="60" field-code="18">
+    <tuition year="2016">5111</tuition>
+    <tuition year="2017">5213</tuition>
+  </series>
+  <series region-code="61" field-code="1">
+    <tuition year="2016">2849</tuition>
+    <tuition year="2017">2905</tuition>
+  </series>
+  <series region-code="61" field-code="7">
+    <tuition year="2016">2849</tuition>
+    <tuition year="2017">2905</tuition>
+  </series>
+  <series region-code="62" field-code="1">
+    <tuition year="2016">4984</tuition>
+    <tuition year="2017">5084</tuition>
+  </series>
+  <series region-code="62" field-code="7">
+    <tuition year="2016">4984</tuition>
+    <tuition year="2017">5084</tuition>
+  </series>
+  <series region-code="67" field-code="1">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="67" field-code="2">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="67" field-code="3">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="67" field-code="4">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="67" field-code="5">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="67" field-code="7">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="67" field-code="8">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="67" field-code="9">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="67" field-code="12">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="67" field-code="15">
+    <tuition year="2016">4064</tuition>
+    <tuition year="2017">4145</tuition>
+  </series>
+  <series region-code="63" field-code="1">
+    <tuition year="2016">3874</tuition>
+    <tuition year="2017">3951</tuition>
+  </series>
+  <series region-code="63" field-code="7">
+    <tuition year="2016">3868</tuition>
+    <tuition year="2017">3946</tuition>
+  </series>
+  <series region-code="63" field-code="9">
+    <tuition year="2016">3922</tuition>
+    <tuition year="2017">4000</tuition>
+  </series>
+  <series region-code="64" field-code="1">
+    <tuition year="2016">4866</tuition>
+    <tuition year="2017">4963</tuition>
+  </series>
+  <series region-code="64" field-code="2">
+    <tuition year="2016">4261</tuition>
+    <tuition year="2017">4346</tuition>
+  </series>
+  <series region-code="64" field-code="3">
+    <tuition year="2016">4261</tuition>
+    <tuition year="2017">4346</tuition>
+  </series>
+  <series region-code="64" field-code="4">
+    <tuition year="2016">4261</tuition>
+    <tuition year="2017">4346</tuition>
+  </series>
+  <series region-code="64" field-code="5">
+    <tuition year="2016">4261</tuition>
+    <tuition year="2017">4346</tuition>
+  </series>
+  <series region-code="64" field-code="7">
+    <tuition year="2016">7927</tuition>
+    <tuition year="2017">8085</tuition>
+  </series>
+  <series region-code="64" field-code="8">
+    <tuition year="2016">4261</tuition>
+    <tuition year="2017">4346</tuition>
+  </series>
+  <series region-code="64" field-code="12">
+    <tuition year="2016">4261</tuition>
+    <tuition year="2017">4346</tuition>
+  </series>
+  <series region-code="64" field-code="15">
+    <tuition year="2016">4261</tuition>
+    <tuition year="2017">4346</tuition>
+  </series>
+  <series region-code="64" field-code="18">
+    <tuition year="2016">4261</tuition>
+    <tuition year="2017">4346</tuition>
+  </series>
+  <series region-code="65" field-code="1">
+    <tuition year="2016">4210</tuition>
+    <tuition year="2017">4295</tuition>
+  </series>
+  <series region-code="65" field-code="2">
+    <tuition year="2016">4666</tuition>
+    <tuition year="2017">4760</tuition>
+  </series>
+  <series region-code="65" field-code="3">
+    <tuition year="2016">5446</tuition>
+    <tuition year="2017">5555</tuition>
+  </series>
+  <series region-code="65" field-code="4">
+    <tuition year="2016">4182</tuition>
+    <tuition year="2017">4266</tuition>
+  </series>
+  <series region-code="65" field-code="5">
+    <tuition year="2016">4182</tuition>
+    <tuition year="2017">4266</tuition>
+  </series>
+  <series region-code="65" field-code="7">
+    <tuition year="2016">4182</tuition>
+    <tuition year="2017">4266</tuition>
+  </series>
+  <series region-code="65" field-code="8">
+    <tuition year="2016">4182</tuition>
+    <tuition year="2017">4266</tuition>
+  </series>
+  <series region-code="65" field-code="9">
+    <tuition year="2016">4182</tuition>
+    <tuition year="2017">4266</tuition>
+  </series>
+  <series region-code="65" field-code="15">
+    <tuition year="2016">4182</tuition>
+    <tuition year="2017">4266</tuition>
+  </series>
+  <series region-code="65" field-code="18">
+    <tuition year="2016">4182</tuition>
+    <tuition year="2017">4266</tuition>
+  </series>
+  <series region-code="68" field-code="1">
+    <tuition year="2016">4464</tuition>
+    <tuition year="2017">4298</tuition>
+  </series>
+  <series region-code="68" field-code="5">
+    <tuition year="2016">4464</tuition>
+    <tuition year="2017">4298</tuition>
+  </series>
+</canadian-undergrad-tuitions>
